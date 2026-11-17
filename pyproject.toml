@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minigpt"
+version = "0.1.0"
+description = "A from-scratch mini GPT: data prep, pretraining, SFT, evaluation, CLI and web dashboard."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = [
+    "torch==2.15.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    # 全量测试仅需标准库 unittest；此处的 pytest 供习惯 pytest 的开发者选用。
+    "pytest>=7",
+]
+
+# 规范入口：由 minigpt.cli 暴露，最终复用仓库根脚本中的同一 main 实现。
+# 命令名与脚本名一致，便于从 `python <name>.py` 平滑迁移，且不与现有引用冲突。
+[project.scripts]
+minigpt-prepare = "minigpt.cli.prepare:main"
+minigpt-prepare-sft = "minigpt.cli.prepare_sft:main"
+minigpt-pretrain = "minigpt.cli.pretrain:main"
+minigpt-sft = "minigpt.cli.sft:main"
+minigpt-evaluate = "minigpt.cli.evaluate:main"
+minigpt-chat = "minigpt.cli.chat:main"
+minigpt-observe = "minigpt.cli.observe:main"
+minigpt-dashboard = "minigpt.cli.dashboard:main"
+minigpt-export = "minigpt.cli.export:main"
+minigpt-visualize = "minigpt.cli.visualize:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["minigpt*"]
+
+[tool.setuptools]
+# 顶层 CLI 脚本保持原位（测试/文档/面板直接按文件名引用），作为可运行入口随包分发。
+py-modules = [
+    "prepare",
+    "prepare_sft",
+    "pretrain",
+    "sft",
+    "evaluate",
+    "chat",
+    "observe",
+    "dashboard",
+    "export",
+    "visualize",
+    "_bootstrap",
+]

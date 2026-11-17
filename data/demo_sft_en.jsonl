@@ -1,0 +1,500 @@
+{"q": "What is the capital of Israel?", "a": "Jerusalem", "group": "what is the capital of israel?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Portugal?", "a": "Lisbon", "group": "what is the capital of portugal?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Australia?", "a": "Canberra", "group": "what is the capital of australia?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of United Kingdom?", "a": "London", "group": "what is the capital of united kingdom?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Japan?", "a": "Tokyo", "group": "what is the capital of japan?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Greece?", "a": "Athens", "group": "what is the capital of greece?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Russia?", "a": "Moscow", "group": "what is the capital of russia?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Italy?", "a": "Rome", "group": "what is the capital of italy?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of New Zealand?", "a": "Wellington", "group": "what is the capital of new zealand?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Spain?", "a": "Madrid", "group": "what is the capital of spain?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Chile?", "a": "Santiago", "group": "what is the capital of chile?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of China?", "a": "Beijing", "group": "what is the capital of china?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Netherlands?", "a": "Amsterdam", "group": "what is the capital of netherlands?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Belgium?", "a": "Brussels", "group": "what is the capital of belgium?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Norway?", "a": "Oslo", "group": "what is the capital of norway?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Canada?", "a": "Ottawa", "group": "what is the capital of canada?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Germany?", "a": "Berlin", "group": "what is the capital of germany?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Denmark?", "a": "Copenhagen", "group": "what is the capital of denmark?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Argentina?", "a": "Buenos Aires", "group": "what is the capital of argentina?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Philippines?", "a": "Manila", "group": "what is the capital of philippines?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of India?", "a": "New Delhi", "group": "what is the capital of india?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Vietnam?", "a": "Hanoi", "group": "what is the capital of vietnam?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Thailand?", "a": "Bangkok", "group": "what is the capital of thailand?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Turkey?", "a": "Ankara", "group": "what is the capital of turkey?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Hungary?", "a": "Budapest", "group": "what is the capital of hungary?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Austria?", "a": "Vienna", "group": "what is the capital of austria?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Peru?", "a": "Lima", "group": "what is the capital of peru?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Kenya?", "a": "Nairobi", "group": "what is the capital of kenya?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Switzerland?", "a": "Bern", "group": "what is the capital of switzerland?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Poland?", "a": "Warsaw", "group": "what is the capital of poland?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Egypt?", "a": "Cairo", "group": "what is the capital of egypt?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Morocco?", "a": "Rabat", "group": "what is the capital of morocco?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of South Korea?", "a": "Seoul", "group": "what is the capital of south korea?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is the capital of Brazil?", "a": "Brasilia", "group": "what is the capital of brazil?", "category": "capitals", "source": "demo_sft_en"}
+{"q": "What is 17 + 14?", "a": "31", "group": "what is 17 + 14?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 25 + 20?", "a": "45", "group": "what is 25 + 20?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 31 + 21?", "a": "52", "group": "what is 31 + 21?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 23 + 16?", "a": "39", "group": "what is 23 + 16?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 28 + 24?", "a": "52", "group": "what is 28 + 24?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 27 + 13?", "a": "40", "group": "what is 27 + 13?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 17 + 15?", "a": "32", "group": "what is 17 + 15?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 15 + 26?", "a": "41", "group": "what is 15 + 26?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 19 + 31?", "a": "50", "group": "what is 19 + 31?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 26 + 18?", "a": "44", "group": "what is 26 + 18?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 20 + 18?", "a": "38", "group": "what is 20 + 18?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 19 + 15?", "a": "34", "group": "what is 19 + 15?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 31 + 14?", "a": "45", "group": "what is 31 + 14?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 13 + 19?", "a": "32", "group": "what is 13 + 19?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 29 + 27?", "a": "56", "group": "what is 29 + 27?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 30 + 31?", "a": "61", "group": "what is 30 + 31?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 20 + 13?", "a": "33", "group": "what is 20 + 13?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 23 + 20?", "a": "43", "group": "what is 23 + 20?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 14 + 13?", "a": "27", "group": "what is 14 + 13?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 24 + 25?", "a": "49", "group": "what is 24 + 25?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 24 + 17?", "a": "41", "group": "what is 24 + 17?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 19 + 19?", "a": "38", "group": "what is 19 + 19?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 22 + 12?", "a": "34", "group": "what is 22 + 12?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 26 + 19?", "a": "45", "group": "what is 26 + 19?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 27 + 31?", "a": "58", "group": "what is 27 + 31?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 12 + 28?", "a": "40", "group": "what is 12 + 28?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 31 + 24?", "a": "55", "group": "what is 31 + 24?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 20 + 16?", "a": "36", "group": "what is 20 + 16?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 27 + 28?", "a": "55", "group": "what is 27 + 28?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 24 + 30?", "a": "54", "group": "what is 24 + 30?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 22 + 24?", "a": "46", "group": "what is 22 + 24?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 12 + 14?", "a": "26", "group": "what is 12 + 14?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 13 + 21?", "a": "34", "group": "what is 13 + 21?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 27 + 19?", "a": "46", "group": "what is 27 + 19?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 29 + 25?", "a": "54", "group": "what is 29 + 25?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 25 + 22?", "a": "47", "group": "what is 25 + 22?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 25 + 12?", "a": "37", "group": "what is 25 + 12?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 23 + 28?", "a": "51", "group": "what is 23 + 28?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 15 + 20?", "a": "35", "group": "what is 15 + 20?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 20 + 25?", "a": "45", "group": "what is 20 + 25?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 20 + 30?", "a": "50", "group": "what is 20 + 30?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 23 + 27?", "a": "50", "group": "what is 23 + 27?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 15 + 24?", "a": "39", "group": "what is 15 + 24?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 24 + 26?", "a": "50", "group": "what is 24 + 26?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 20 + 27?", "a": "47", "group": "what is 20 + 27?", "category": "math_addition", "source": "demo_sft_en"}
+{"q": "What is 58 - 8?", "a": "50", "group": "what is 58 - 8?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 37 - 11?", "a": "26", "group": "what is 37 - 11?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 30 - 12?", "a": "18", "group": "what is 30 - 12?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 45 - 3?", "a": "42", "group": "what is 45 - 3?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 50 - 5?", "a": "45", "group": "what is 50 - 5?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 43 - 12?", "a": "31", "group": "what is 43 - 12?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 51 - 6?", "a": "45", "group": "what is 51 - 6?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 53 - 15?", "a": "38", "group": "what is 53 - 15?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 48 - 12?", "a": "36", "group": "what is 48 - 12?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 52 - 3?", "a": "49", "group": "what is 52 - 3?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 56 - 13?", "a": "43", "group": "what is 56 - 13?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 47 - 6?", "a": "41", "group": "what is 47 - 6?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 40 - 3?", "a": "37", "group": "what is 40 - 3?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 53 - 7?", "a": "46", "group": "what is 53 - 7?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 58 - 3?", "a": "55", "group": "what is 58 - 3?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 43 - 8?", "a": "35", "group": "what is 43 - 8?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 47 - 12?", "a": "35", "group": "what is 47 - 12?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 30 - 8?", "a": "22", "group": "what is 30 - 8?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 45 - 10?", "a": "35", "group": "what is 45 - 10?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 56 - 11?", "a": "45", "group": "what is 56 - 11?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 41 - 10?", "a": "31", "group": "what is 41 - 10?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 47 - 4?", "a": "43", "group": "what is 47 - 4?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 50 - 3?", "a": "47", "group": "what is 50 - 3?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 40 - 4?", "a": "36", "group": "what is 40 - 4?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 41 - 13?", "a": "28", "group": "what is 41 - 13?", "category": "math_subtraction", "source": "demo_sft_en"}
+{"q": "What is 10 times 9?", "a": "90", "group": "what is 10 times 9?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 5 times 9?", "a": "45", "group": "what is 5 times 9?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 6 times 2?", "a": "12", "group": "what is 6 times 2?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 7 times 3?", "a": "21", "group": "what is 7 times 3?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 4 times 8?", "a": "32", "group": "what is 4 times 8?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 9 times 7?", "a": "63", "group": "what is 9 times 7?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 3 times 2?", "a": "6", "group": "what is 3 times 2?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 7 times 8?", "a": "56", "group": "what is 7 times 8?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 2 times 10?", "a": "20", "group": "what is 2 times 10?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 9 times 4?", "a": "36", "group": "what is 9 times 4?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 6 times 3?", "a": "18", "group": "what is 6 times 3?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 4 times 9?", "a": "36", "group": "what is 4 times 9?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 2 times 8?", "a": "16", "group": "what is 2 times 8?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 3 times 3?", "a": "9", "group": "what is 3 times 3?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 6 times 9?", "a": "54", "group": "what is 6 times 9?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 8 times 3?", "a": "24", "group": "what is 8 times 3?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 10 times 4?", "a": "40", "group": "what is 10 times 4?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 8 times 4?", "a": "32", "group": "what is 8 times 4?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 7 times 7?", "a": "49", "group": "what is 7 times 7?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 7 times 4?", "a": "28", "group": "what is 7 times 4?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 3 times 4?", "a": "12", "group": "what is 3 times 4?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 7 times 10?", "a": "70", "group": "what is 7 times 10?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 8 times 6?", "a": "48", "group": "what is 8 times 6?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 9 times 2?", "a": "18", "group": "what is 9 times 2?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 2 times 3?", "a": "6", "group": "what is 2 times 3?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 2 times 9?", "a": "18", "group": "what is 2 times 9?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 8 times 8?", "a": "64", "group": "what is 8 times 8?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 4 times 10?", "a": "40", "group": "what is 4 times 10?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 4 times 5?", "a": "20", "group": "what is 4 times 5?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is 6 times 6?", "a": "36", "group": "what is 6 times 6?", "category": "math_multiplication", "source": "demo_sft_en"}
+{"q": "What is the opposite of big?", "a": "small", "group": "what is the opposite of big?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of high?", "a": "low", "group": "what is the opposite of high?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of clean?", "a": "dirty", "group": "what is the opposite of clean?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of fast?", "a": "slow", "group": "what is the opposite of fast?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of day?", "a": "night", "group": "what is the opposite of day?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of loud?", "a": "quiet", "group": "what is the opposite of loud?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of question?", "a": "answer", "group": "what is the opposite of question?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of in?", "a": "out", "group": "what is the opposite of in?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of light?", "a": "dark", "group": "what is the opposite of light?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of morning?", "a": "evening", "group": "what is the opposite of morning?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of early?", "a": "late", "group": "what is the opposite of early?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of up?", "a": "down", "group": "what is the opposite of up?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of yes?", "a": "no", "group": "what is the opposite of yes?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of thick?", "a": "thin", "group": "what is the opposite of thick?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of true?", "a": "false", "group": "what is the opposite of true?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of open?", "a": "closed", "group": "what is the opposite of open?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of begin?", "a": "end", "group": "what is the opposite of begin?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of young?", "a": "old", "group": "what is the opposite of young?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of buy?", "a": "sell", "group": "what is the opposite of buy?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of wet?", "a": "dry", "group": "what is the opposite of wet?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of full?", "a": "empty", "group": "what is the opposite of full?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of summer?", "a": "winter", "group": "what is the opposite of summer?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of near?", "a": "far", "group": "what is the opposite of near?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of left?", "a": "right", "group": "what is the opposite of left?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of hot?", "a": "cold", "group": "what is the opposite of hot?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of strong?", "a": "weak", "group": "what is the opposite of strong?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of long?", "a": "short", "group": "what is the opposite of long?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of on?", "a": "off", "group": "what is the opposite of on?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of hard?", "a": "soft", "group": "what is the opposite of hard?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "What is the opposite of rich?", "a": "poor", "group": "what is the opposite of rich?", "category": "opposites", "source": "demo_sft_en"}
+{"q": "How many legs does a sheep have?", "a": "4", "group": "how many legs does a sheep have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a horse have?", "a": "4", "group": "how many legs does a horse have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a bird have?", "a": "2", "group": "how many legs does a bird have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a duck have?", "a": "2", "group": "how many legs does a duck have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a spider have?", "a": "8", "group": "how many legs does a spider have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a crab have?", "a": "10", "group": "how many legs does a crab have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a centipede have?", "a": "100", "group": "how many legs does a centipede have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a butterfly have?", "a": "6", "group": "how many legs does a butterfly have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a dog have?", "a": "4", "group": "how many legs does a dog have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a rabbit have?", "a": "4", "group": "how many legs does a rabbit have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a chicken have?", "a": "2", "group": "how many legs does a chicken have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a octopus have?", "a": "8", "group": "how many legs does a octopus have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a pig have?", "a": "4", "group": "how many legs does a pig have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a elephant have?", "a": "4", "group": "how many legs does a elephant have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a ant have?", "a": "6", "group": "how many legs does a ant have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a cat have?", "a": "4", "group": "how many legs does a cat have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a frog have?", "a": "4", "group": "how many legs does a frog have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a tiger have?", "a": "4", "group": "how many legs does a tiger have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a cow have?", "a": "4", "group": "how many legs does a cow have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "How many legs does a bee have?", "a": "6", "group": "how many legs does a bee have?", "category": "animal_legs", "source": "demo_sft_en"}
+{"q": "What sound does a owl make?", "a": "hoot", "group": "what sound does a owl make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a dog make?", "a": "woof", "group": "what sound does a dog make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a turkey make?", "a": "gobble", "group": "what sound does a turkey make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a duck make?", "a": "quack", "group": "what sound does a duck make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a goat make?", "a": "bleat", "group": "what sound does a goat make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a wolf make?", "a": "howl", "group": "what sound does a wolf make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a bee make?", "a": "buzz", "group": "what sound does a bee make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a cow make?", "a": "moo", "group": "what sound does a cow make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a cat make?", "a": "meow", "group": "what sound does a cat make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a sheep make?", "a": "baa", "group": "what sound does a sheep make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a frog make?", "a": "croak", "group": "what sound does a frog make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a lion make?", "a": "roar", "group": "what sound does a lion make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a bird make?", "a": "tweet", "group": "what sound does a bird make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a chicken make?", "a": "cluck", "group": "what sound does a chicken make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a snake make?", "a": "hiss", "group": "what sound does a snake make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a rooster make?", "a": "cock-a-doodle-doo", "group": "what sound does a rooster make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a mouse make?", "a": "squeak", "group": "what sound does a mouse make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a donkey make?", "a": "hee-haw", "group": "what sound does a donkey make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a horse make?", "a": "neigh", "group": "what sound does a horse make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "What sound does a pig make?", "a": "oink", "group": "what sound does a pig make?", "category": "animal_sounds", "source": "demo_sft_en"}
+{"q": "Which month comes after March?", "a": "April", "group": "which month comes after march?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which day comes after Sunday?", "a": "Monday", "group": "which day comes after sunday?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which month comes after February?", "a": "March", "group": "which month comes after february?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which month comes after April?", "a": "May", "group": "which month comes after april?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which day comes after Monday?", "a": "Tuesday", "group": "which day comes after monday?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which month comes after May?", "a": "June", "group": "which month comes after may?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which day comes after Saturday?", "a": "Sunday", "group": "which day comes after saturday?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which month comes after August?", "a": "September", "group": "which month comes after august?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which month comes after September?", "a": "October", "group": "which month comes after september?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which month comes after January?", "a": "February", "group": "which month comes after january?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which day comes after Thursday?", "a": "Friday", "group": "which day comes after thursday?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which day comes after Wednesday?", "a": "Thursday", "group": "which day comes after wednesday?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which month comes after November?", "a": "December", "group": "which month comes after november?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which month comes after October?", "a": "November", "group": "which month comes after october?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which day comes after Friday?", "a": "Saturday", "group": "which day comes after friday?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which month comes after June?", "a": "July", "group": "which month comes after june?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which month comes after July?", "a": "August", "group": "which month comes after july?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which day comes after Tuesday?", "a": "Wednesday", "group": "which day comes after tuesday?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "Which month comes after December?", "a": "January", "group": "which month comes after december?", "category": "days_months", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'airplane'?", "a": "8", "group": "how many letters are in the word 'airplane'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'tiger'?", "a": "5", "group": "how many letters are in the word 'tiger'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'pencil'?", "a": "6", "group": "how many letters are in the word 'pencil'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'bicycle'?", "a": "7", "group": "how many letters are in the word 'bicycle'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'flower'?", "a": "6", "group": "how many letters are in the word 'flower'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'cherry'?", "a": "6", "group": "how many letters are in the word 'cherry'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'purple'?", "a": "6", "group": "how many letters are in the word 'purple'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'family'?", "a": "6", "group": "how many letters are in the word 'family'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'notebook'?", "a": "8", "group": "how many letters are in the word 'notebook'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'melon'?", "a": "5", "group": "how many letters are in the word 'melon'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'grape'?", "a": "5", "group": "how many letters are in the word 'grape'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'golden'?", "a": "6", "group": "how many letters are in the word 'golden'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'yellow'?", "a": "6", "group": "how many letters are in the word 'yellow'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'morning'?", "a": "7", "group": "how many letters are in the word 'morning'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'winter'?", "a": "6", "group": "how many letters are in the word 'winter'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'orange'?", "a": "6", "group": "how many letters are in the word 'orange'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'friend'?", "a": "6", "group": "how many letters are in the word 'friend'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'keyboard'?", "a": "8", "group": "how many letters are in the word 'keyboard'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'monitor'?", "a": "7", "group": "how many letters are in the word 'monitor'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'river'?", "a": "5", "group": "how many letters are in the word 'river'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'monkey'?", "a": "6", "group": "how many letters are in the word 'monkey'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'dolphin'?", "a": "7", "group": "how many letters are in the word 'dolphin'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'teacher'?", "a": "7", "group": "how many letters are in the word 'teacher'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'rabbit'?", "a": "6", "group": "how many letters are in the word 'rabbit'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'library'?", "a": "7", "group": "how many letters are in the word 'library'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'peach'?", "a": "5", "group": "how many letters are in the word 'peach'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'garden'?", "a": "6", "group": "how many letters are in the word 'garden'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'apple'?", "a": "5", "group": "how many letters are in the word 'apple'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'banana'?", "a": "6", "group": "how many letters are in the word 'banana'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'penguin'?", "a": "7", "group": "how many letters are in the word 'penguin'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'school'?", "a": "6", "group": "how many letters are in the word 'school'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'giraffe'?", "a": "7", "group": "how many letters are in the word 'giraffe'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'lemon'?", "a": "5", "group": "how many letters are in the word 'lemon'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'window'?", "a": "6", "group": "how many letters are in the word 'window'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'squirrel'?", "a": "8", "group": "how many letters are in the word 'squirrel'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'summer'?", "a": "6", "group": "how many letters are in the word 'summer'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'evening'?", "a": "7", "group": "how many letters are in the word 'evening'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "How many letters are in the word 'elephant'?", "a": "8", "group": "how many letters are in the word 'elephant'?", "category": "letter_count", "source": "demo_sft_en"}
+{"q": "What number comes after 99?", "a": "100", "group": "what number comes after 99?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 59?", "a": "60", "group": "what number comes after 59?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 159?", "a": "160", "group": "what number comes after 159?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 189?", "a": "190", "group": "what number comes after 189?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 9?", "a": "10", "group": "what number comes after 9?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 149?", "a": "150", "group": "what number comes after 149?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 119?", "a": "120", "group": "what number comes after 119?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 79?", "a": "80", "group": "what number comes after 79?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 49?", "a": "50", "group": "what number comes after 49?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 179?", "a": "180", "group": "what number comes after 179?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 199?", "a": "200", "group": "what number comes after 199?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 69?", "a": "70", "group": "what number comes after 69?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 19?", "a": "20", "group": "what number comes after 19?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 29?", "a": "30", "group": "what number comes after 29?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 39?", "a": "40", "group": "what number comes after 39?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 139?", "a": "140", "group": "what number comes after 139?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 169?", "a": "170", "group": "what number comes after 169?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 109?", "a": "110", "group": "what number comes after 109?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 129?", "a": "130", "group": "what number comes after 129?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What number comes after 89?", "a": "90", "group": "what number comes after 89?", "category": "next_number", "source": "demo_sft_en"}
+{"q": "What color do you get by mixing red and yellow?", "a": "orange", "group": "what color do you get by mixing red and yellow?", "category": "colors", "source": "demo_sft_en"}
+{"q": "What color do you get by mixing blue and yellow?", "a": "green", "group": "what color do you get by mixing blue and yellow?", "category": "colors", "source": "demo_sft_en"}
+{"q": "What color do you get by mixing yellow and green?", "a": "lime", "group": "what color do you get by mixing yellow and green?", "category": "colors", "source": "demo_sft_en"}
+{"q": "What color do you get by mixing red and green?", "a": "brown", "group": "what color do you get by mixing red and green?", "category": "colors", "source": "demo_sft_en"}
+{"q": "What color do you get by mixing red and white?", "a": "pink", "group": "what color do you get by mixing red and white?", "category": "colors", "source": "demo_sft_en"}
+{"q": "What color do you get by mixing black and white?", "a": "gray", "group": "what color do you get by mixing black and white?", "category": "colors", "source": "demo_sft_en"}
+{"q": "What color do you get by mixing blue and white?", "a": "light blue", "group": "what color do you get by mixing blue and white?", "category": "colors", "source": "demo_sft_en"}
+{"q": "What color do you get by mixing red and blue?", "a": "purple", "group": "what color do you get by mixing red and blue?", "category": "colors", "source": "demo_sft_en"}
+{"q": "How are you?", "a": "I am fine, thank you.", "group": "how are you?", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Good afternoon!", "a": "Good afternoon!", "group": "good afternoon!", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Goodbye!", "a": "Goodbye! See you next time.", "group": "goodbye!", "category": "greetings", "source": "demo_sft_en"}
+{"q": "That is all for now.", "a": "Thank you. Goodbye!", "group": "that is all for now.", "category": "greetings", "source": "demo_sft_en"}
+{"q": "What day is it today?", "a": "I do not know the date.", "group": "what day is it today?", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Thank you.", "a": "You are welcome.", "group": "thank you.", "category": "greetings", "source": "demo_sft_en"}
+{"q": "How old are you?", "a": "I am a computer program, so I have no age.", "group": "how old are you?", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Good morning!", "a": "Good morning! Have a nice day.", "group": "good morning!", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Please help me.", "a": "Of course. What do you need?", "group": "please help me.", "category": "greetings", "source": "demo_sft_en"}
+{"q": "One more question.", "a": "Sure, go ahead.", "group": "one more question.", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Can you speak Chinese?", "a": "I am learning one character at a time.", "group": "can you speak chinese?", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Hi!", "a": "Hi! Nice to meet you.", "group": "hi!", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Thanks a lot!", "a": "You are welcome.", "group": "thanks a lot!", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Are you a robot?", "a": "I am a language model, not a robot.", "group": "are you a robot?", "category": "greetings", "source": "demo_sft_en"}
+{"q": "See you later.", "a": "See you later.", "group": "see you later.", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Good evening!", "a": "Good evening!", "group": "good evening!", "category": "greetings", "source": "demo_sft_en"}
+{"q": "What is your name?", "a": "I am a small language model.", "group": "what is your name?", "category": "greetings", "source": "demo_sft_en"}
+{"q": "How is the weather?", "a": "I cannot see the weather.", "group": "how is the weather?", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Where are you from?", "a": "I live in a computer.", "group": "where are you from?", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Excuse me.", "a": "Yes, can I help you?", "group": "excuse me.", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Do you sleep?", "a": "No, I do not need sleep.", "group": "do you sleep?", "category": "greetings", "source": "demo_sft_en"}
+{"q": "What can you do?", "a": "I can answer simple questions.", "group": "what can you do?", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Nice to meet you.", "a": "Nice to meet you too.", "group": "nice to meet you.", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Let us learn together.", "a": "Great idea! Let us start.", "group": "let us learn together.", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Do you like music?", "a": "I like reading about music.", "group": "do you like music?", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Hello!", "a": "Hello! How can I help you?", "group": "hello!", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Sorry.", "a": "That is all right.", "group": "sorry.", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Tell me something.", "a": "Learning a little every day is powerful.", "group": "tell me something.", "category": "greetings", "source": "demo_sft_en"}
+{"q": "What is your favorite color?", "a": "I do not have a favorite color.", "group": "what is your favorite color?", "category": "greetings", "source": "demo_sft_en"}
+{"q": "Good night!", "a": "Good night! Sleep well.", "group": "good night!", "category": "greetings", "source": "demo_sft_en"}
+{"q": "How do you spell 'fish'?", "a": "f-i-s-h", "group": "how do you spell 'fish'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'house'?", "a": "h-o-u-s-e", "group": "how do you spell 'house'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'quick'?", "a": "q-u-i-c-k", "group": "how do you spell 'quick'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'river'?", "a": "r-i-v-e-r", "group": "how do you spell 'river'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'dream'?", "a": "d-r-e-a-m", "group": "how do you spell 'dream'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'happy'?", "a": "h-a-p-p-y", "group": "how do you spell 'happy'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'brave'?", "a": "b-r-a-v-e", "group": "how do you spell 'brave'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'tree'?", "a": "t-r-e-e", "group": "how do you spell 'tree'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'apple'?", "a": "a-p-p-l-e", "group": "how do you spell 'apple'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'phone'?", "a": "p-h-o-n-e", "group": "how do you spell 'phone'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'water'?", "a": "w-a-t-e-r", "group": "how do you spell 'water'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'dog'?", "a": "d-o-g", "group": "how do you spell 'dog'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'green'?", "a": "g-r-e-e-n", "group": "how do you spell 'green'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'light'?", "a": "l-i-g-h-t", "group": "how do you spell 'light'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'sugar'?", "a": "s-u-g-a-r", "group": "how do you spell 'sugar'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'train'?", "a": "t-r-a-i-n", "group": "how do you spell 'train'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'bird'?", "a": "b-i-r-d", "group": "how do you spell 'bird'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'stone'?", "a": "s-t-o-n-e", "group": "how do you spell 'stone'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'bread'?", "a": "b-r-e-a-d", "group": "how do you spell 'bread'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'book'?", "a": "b-o-o-k", "group": "how do you spell 'book'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'table'?", "a": "t-a-b-l-e", "group": "how do you spell 'table'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'cat'?", "a": "c-a-t", "group": "how do you spell 'cat'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'music'?", "a": "m-u-s-i-c", "group": "how do you spell 'music'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'cloud'?", "a": "c-l-o-u-d", "group": "how do you spell 'cloud'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "How do you spell 'smile'?", "a": "s-m-i-l-e", "group": "how do you spell 'smile'?", "category": "spelling", "source": "demo_sft_en"}
+{"q": "What is a synonym of gift?", "a": "present", "group": "what is a synonym of gift?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of tired?", "a": "weary", "group": "what is a synonym of tired?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of show?", "a": "display", "group": "what is a synonym of show?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of beautiful?", "a": "pretty", "group": "what is a synonym of beautiful?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of choose?", "a": "select", "group": "what is a synonym of choose?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of rich?", "a": "wealthy", "group": "what is a synonym of rich?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of begin?", "a": "start", "group": "what is a synonym of begin?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of angry?", "a": "mad", "group": "what is a synonym of angry?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of calm?", "a": "peaceful", "group": "what is a synonym of calm?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of buy?", "a": "purchase", "group": "what is a synonym of buy?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of smart?", "a": "clever", "group": "what is a synonym of smart?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of famous?", "a": "well-known", "group": "what is a synonym of famous?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of journey?", "a": "trip", "group": "what is a synonym of journey?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of end?", "a": "finish", "group": "what is a synonym of end?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of reply?", "a": "answer", "group": "what is a synonym of reply?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of difficult?", "a": "hard", "group": "what is a synonym of difficult?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of easy?", "a": "simple", "group": "what is a synonym of easy?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of bright?", "a": "shiny", "group": "what is a synonym of bright?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of quiet?", "a": "silent", "group": "what is a synonym of quiet?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of correct?", "a": "right", "group": "what is a synonym of correct?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of big?", "a": "large", "group": "what is a synonym of big?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of happy?", "a": "glad", "group": "what is a synonym of happy?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of small?", "a": "tiny", "group": "what is a synonym of small?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of help?", "a": "assist", "group": "what is a synonym of help?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of funny?", "a": "amusing", "group": "what is a synonym of funny?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of fast?", "a": "quick", "group": "what is a synonym of fast?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of strong?", "a": "powerful", "group": "what is a synonym of strong?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of afraid?", "a": "scared", "group": "what is a synonym of afraid?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of close?", "a": "shut", "group": "what is a synonym of close?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "What is a synonym of cold?", "a": "chilly", "group": "what is a synonym of cold?", "category": "synonyms", "source": "demo_sft_en"}
+{"q": "Which season comes after autumn?", "a": "winter", "group": "which season comes after autumn?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season comes after spring?", "a": "summer", "group": "which season comes after spring?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season brings harvest?", "a": "autumn", "group": "which season brings harvest?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season is the hottest?", "a": "summer", "group": "which season is the hottest?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season comes after summer?", "a": "autumn", "group": "which season comes after summer?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season starts after March?", "a": "spring", "group": "which season starts after march?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "In which season does it snow most?", "a": "winter", "group": "in which season does it snow most?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season comes before winter?", "a": "autumn", "group": "which season comes before winter?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season follows the rainy season?", "a": "autumn", "group": "which season follows the rainy season?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "In which season do leaves turn yellow?", "a": "autumn", "group": "in which season do leaves turn yellow?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season do children like for snowballs?", "a": "winter", "group": "which season do children like for snowballs?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season comes after winter?", "a": "spring", "group": "which season comes after winter?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season starts after June?", "a": "summer", "group": "which season starts after june?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season starts after December?", "a": "winter", "group": "which season starts after december?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season has the longest days?", "a": "summer", "group": "which season has the longest days?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season comes before summer?", "a": "spring", "group": "which season comes before summer?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season is the coldest?", "a": "winter", "group": "which season is the coldest?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season is best for planting?", "a": "spring", "group": "which season is best for planting?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "Which season is between spring and autumn?", "a": "summer", "group": "which season is between spring and autumn?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "In which season do flowers bloom?", "a": "spring", "group": "in which season do flowers bloom?", "category": "seasons", "source": "demo_sft_en"}
+{"q": "What do bees make?", "a": "honey", "group": "what do bees make?", "category": "facts", "source": "demo_sft_en"}
+{"q": "What do birds use to fly?", "a": "wings", "group": "what do birds use to fly?", "category": "facts", "source": "demo_sft_en"}
+{"q": "What is the largest animal in the ocean?", "a": "the blue whale", "group": "what is the largest animal in the ocean?", "category": "facts", "source": "demo_sft_en"}
+{"q": "Where does the sun rise?", "a": "in the east", "group": "where does the sun rise?", "category": "facts", "source": "demo_sft_en"}
+{"q": "What is frozen water called?", "a": "ice", "group": "what is frozen water called?", "category": "facts", "source": "demo_sft_en"}
+{"q": "How many days are in a week?", "a": "seven", "group": "how many days are in a week?", "category": "facts", "source": "demo_sft_en"}
+{"q": "What goes around the earth?", "a": "the moon", "group": "what goes around the earth?", "category": "facts", "source": "demo_sft_en"}
+{"q": "How many eyes does a person have?", "a": "two", "group": "how many eyes does a person have?", "category": "facts", "source": "demo_sft_en"}
+{"q": "What do butterflies come from?", "a": "caterpillars", "group": "what do butterflies come from?", "category": "facts", "source": "demo_sft_en"}
+{"q": "What does the earth go around?", "a": "the sun", "group": "what does the earth go around?", "category": "facts", "source": "demo_sft_en"}
+{"q": "Which shape has three sides?", "a": "a triangle", "group": "which shape has three sides?", "category": "facts", "source": "demo_sft_en"}
+{"q": "Where do fish live?", "a": "in water", "group": "where do fish live?", "category": "facts", "source": "demo_sft_en"}
+{"q": "At what temperature does water boil?", "a": "100 degrees Celsius", "group": "at what temperature does water boil?", "category": "facts", "source": "demo_sft_en"}
+{"q": "What do plants need to grow?", "a": "sunlight and water", "group": "what do plants need to grow?", "category": "facts", "source": "demo_sft_en"}
+{"q": "What do cats like to catch?", "a": "mice", "group": "what do cats like to catch?", "category": "facts", "source": "demo_sft_en"}
+{"q": "How many colors are in a rainbow?", "a": "seven", "group": "how many colors are in a rainbow?", "category": "facts", "source": "demo_sft_en"}
+{"q": "Where do camels live?", "a": "in the desert", "group": "where do camels live?", "category": "facts", "source": "demo_sft_en"}
+{"q": "Can penguins fly?", "a": "no", "group": "can penguins fly?", "category": "facts", "source": "demo_sft_en"}
+{"q": "How many hours are in a day?", "a": "24", "group": "how many hours are in a day?", "category": "facts", "source": "demo_sft_en"}
+{"q": "Which planet do we live on?", "a": "earth", "group": "which planet do we live on?", "category": "facts", "source": "demo_sft_en"}
+{"q": "What time is it 2 hours after 10 o'clock?", "a": "12 o'clock", "group": "what time is it 2 hours after 10 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 2 hours after 6 o'clock?", "a": "8 o'clock", "group": "what time is it 2 hours after 6 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 3 hours after 3 o'clock?", "a": "6 o'clock", "group": "what time is it 3 hours after 3 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 3 hours after 7 o'clock?", "a": "10 o'clock", "group": "what time is it 3 hours after 7 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 3 hours after 5 o'clock?", "a": "8 o'clock", "group": "what time is it 3 hours after 5 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 4 hours after 6 o'clock?", "a": "10 o'clock", "group": "what time is it 4 hours after 6 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 3 hours after 11 o'clock?", "a": "2 o'clock", "group": "what time is it 3 hours after 11 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 2 hours after 11 o'clock?", "a": "1 o'clock", "group": "what time is it 2 hours after 11 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 3 hours after 6 o'clock?", "a": "9 o'clock", "group": "what time is it 3 hours after 6 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 4 hours after 1 o'clock?", "a": "5 o'clock", "group": "what time is it 4 hours after 1 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 3 hours after 12 o'clock?", "a": "3 o'clock", "group": "what time is it 3 hours after 12 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 2 hours after 9 o'clock?", "a": "11 o'clock", "group": "what time is it 2 hours after 9 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 2 hours after 1 o'clock?", "a": "3 o'clock", "group": "what time is it 2 hours after 1 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 3 hours after 2 o'clock?", "a": "5 o'clock", "group": "what time is it 3 hours after 2 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 4 hours after 9 o'clock?", "a": "1 o'clock", "group": "what time is it 4 hours after 9 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 4 hours after 4 o'clock?", "a": "8 o'clock", "group": "what time is it 4 hours after 4 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 2 hours after 12 o'clock?", "a": "2 o'clock", "group": "what time is it 2 hours after 12 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 2 hours after 8 o'clock?", "a": "10 o'clock", "group": "what time is it 2 hours after 8 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 3 hours after 10 o'clock?", "a": "1 o'clock", "group": "what time is it 3 hours after 10 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 4 hours after 8 o'clock?", "a": "12 o'clock", "group": "what time is it 4 hours after 8 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 3 hours after 1 o'clock?", "a": "4 o'clock", "group": "what time is it 3 hours after 1 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 4 hours after 3 o'clock?", "a": "7 o'clock", "group": "what time is it 4 hours after 3 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 2 hours after 7 o'clock?", "a": "9 o'clock", "group": "what time is it 2 hours after 7 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 2 hours after 4 o'clock?", "a": "6 o'clock", "group": "what time is it 2 hours after 4 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What time is it 4 hours after 12 o'clock?", "a": "4 o'clock", "group": "what time is it 4 hours after 12 o'clock?", "category": "time", "source": "demo_sft_en"}
+{"q": "What shape is round?", "a": "a circle", "group": "what shape is round?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "Which shape has 6 sides?", "a": "hexagon", "group": "which shape has 6 sides?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "Which shape has 8 sides?", "a": "octagon", "group": "which shape has 8 sides?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "Which shape has 3 sides?", "a": "triangle", "group": "which shape has 3 sides?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "How many sides does a pentagon have?", "a": "5", "group": "how many sides does a pentagon have?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "What shape has four equal sides?", "a": "a square", "group": "what shape has four equal sides?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "How many sides does a hexagon have?", "a": "6", "group": "how many sides does a hexagon have?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "How many sides does a rhombus have?", "a": "4", "group": "how many sides does a rhombus have?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "Which shape has 7 sides?", "a": "heptagon", "group": "which shape has 7 sides?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "How many sides does a triangle have?", "a": "3", "group": "how many sides does a triangle have?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "How many sides does a heptagon have?", "a": "7", "group": "how many sides does a heptagon have?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "How many sides does a square have?", "a": "4", "group": "how many sides does a square have?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "How many sides does a octagon have?", "a": "8", "group": "how many sides does a octagon have?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "How many sides does a circle have?", "a": "0", "group": "how many sides does a circle have?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "Which shape has 5 sides?", "a": "pentagon", "group": "which shape has 5 sides?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "How many sides does a rectangle have?", "a": "4", "group": "how many sides does a rectangle have?", "category": "shapes", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'run'?", "a": "ran", "group": "what is the past tense of 'run'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'sleep'?", "a": "slept", "group": "what is the past tense of 'sleep'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'drink'?", "a": "drank", "group": "what is the past tense of 'drink'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'make'?", "a": "made", "group": "what is the past tense of 'make'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'send'?", "a": "sent", "group": "what is the past tense of 'send'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'leave'?", "a": "left", "group": "what is the past tense of 'leave'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'bring'?", "a": "brought", "group": "what is the past tense of 'bring'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'build'?", "a": "built", "group": "what is the past tense of 'build'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'lose'?", "a": "lost", "group": "what is the past tense of 'lose'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'teach'?", "a": "taught", "group": "what is the past tense of 'teach'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'swim'?", "a": "swam", "group": "what is the past tense of 'swim'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'think'?", "a": "thought", "group": "what is the past tense of 'think'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'spend'?", "a": "spent", "group": "what is the past tense of 'spend'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'fly'?", "a": "flew", "group": "what is the past tense of 'fly'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'write'?", "a": "wrote", "group": "what is the past tense of 'write'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'take'?", "a": "took", "group": "what is the past tense of 'take'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'see'?", "a": "saw", "group": "what is the past tense of 'see'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'eat'?", "a": "ate", "group": "what is the past tense of 'eat'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'win'?", "a": "won", "group": "what is the past tense of 'win'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'buy'?", "a": "bought", "group": "what is the past tense of 'buy'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'sing'?", "a": "sang", "group": "what is the past tense of 'sing'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'go'?", "a": "went", "group": "what is the past tense of 'go'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'catch'?", "a": "caught", "group": "what is the past tense of 'catch'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'speak'?", "a": "spoke", "group": "what is the past tense of 'speak'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "What is the past tense of 'feel'?", "a": "felt", "group": "what is the past tense of 'feel'?", "category": "grammar", "source": "demo_sft_en"}
+{"q": "Which country is famous for pizza?", "a": "Italy", "group": "which country is famous for pizza?", "category": "places", "source": "demo_sft_en"}
+{"q": "What is the longest river in the world?", "a": "the Nile", "group": "what is the longest river in the world?", "category": "places", "source": "demo_sft_en"}
+{"q": "Which ocean is between America and Europe?", "a": "the Atlantic Ocean", "group": "which ocean is between america and europe?", "category": "places", "source": "demo_sft_en"}
+{"q": "What is the largest ocean on earth?", "a": "the Pacific Ocean", "group": "what is the largest ocean on earth?", "category": "places", "source": "demo_sft_en"}
+{"q": "Where is the Great Pyramid?", "a": "in Egypt", "group": "where is the great pyramid?", "category": "places", "source": "demo_sft_en"}
+{"q": "Which continent is Japan in?", "a": "Asia", "group": "which continent is japan in?", "category": "places", "source": "demo_sft_en"}
+{"q": "What is the capital city of Japan?", "a": "Tokyo", "group": "what is the capital city of japan?", "category": "places", "source": "demo_sft_en"}
+{"q": "Which country has the city of Toronto?", "a": "Canada", "group": "which country has the city of toronto?", "category": "places", "source": "demo_sft_en"}
+{"q": "Which continent is Egypt in?", "a": "Africa", "group": "which continent is egypt in?", "category": "places", "source": "demo_sft_en"}
+{"q": "What is the tallest mountain in the world?", "a": "Mount Everest", "group": "what is the tallest mountain in the world?", "category": "places", "source": "demo_sft_en"}
+{"q": "Which country is famous for the Great Wall?", "a": "China", "group": "which country is famous for the great wall?", "category": "places", "source": "demo_sft_en"}
+{"q": "Where is the Eiffel Tower?", "a": "in Paris", "group": "where is the eiffel tower?", "category": "places", "source": "demo_sft_en"}
+{"q": "Which continent is Brazil in?", "a": "South America", "group": "which continent is brazil in?", "category": "places", "source": "demo_sft_en"}
+{"q": "What is the largest desert in the world?", "a": "the Sahara", "group": "what is the largest desert in the world?", "category": "places", "source": "demo_sft_en"}
+{"q": "What is the largest country by area?", "a": "Russia", "group": "what is the largest country by area?", "category": "places", "source": "demo_sft_en"}
+{"q": "What is the smallest country in the world?", "a": "Vatican City", "group": "what is the smallest country in the world?", "category": "places", "source": "demo_sft_en"}
+{"q": "Which sea is between Europe and Africa?", "a": "the Mediterranean Sea", "group": "which sea is between europe and africa?", "category": "places", "source": "demo_sft_en"}
+{"q": "Which country has the city of Sydney?", "a": "Australia", "group": "which country has the city of sydney?", "category": "places", "source": "demo_sft_en"}
+{"q": "What is the capital city of France?", "a": "Paris", "group": "what is the capital city of france?", "category": "places", "source": "demo_sft_en"}
+{"q": "What is the coldest continent?", "a": "Antarctica", "group": "what is the coldest continent?", "category": "places", "source": "demo_sft_en"}

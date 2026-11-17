@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>MiniGPT 控制台</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">M</span>
+      <div class="brand-text">
+        <h1>MiniGPT 控制台</h1>
+        <p class="subtitle">数据 · 预训练 · SFT · 评测 · 生成 · 导出</p>
+      </div>
+    </div>
+    <div class="topbar-status">
+      <span id="health-badge" class="badge badge-wait" role="status" aria-live="polite">连接中…</span>
+      <span id="stale-badge" class="badge badge-hidden" role="status" aria-live="polite"></span>
+      <span id="sys-summary" class="muted"></span>
+      <span id="last-update" class="muted">尚未刷新</span>
+      <button id="global-failure-btn" class="btn btn-small btn-ghost-danger" type="button" hidden title="查看最近一次运行失败的原因">
+        失败 <span id="global-failure-count" class="badge badge-bad">0</span>
+      </button>
+      <label class="switch" title="暂停后不再自动请求后端，已显示的数据保持不动">
+        <input type="checkbox" id="pause-toggle">
+        暂停刷新
+      </label>
+      <button id="theme-toggle" class="btn btn-small btn-ghost" type="button" title="切换亮色 / 暗色主题">☀ 亮色</button>
+      <button id="task-drawer-btn" class="btn btn-small" title="查看全部任务、活动任务与训练控制台尾部">
+        任务 <span id="task-count" class="badge badge-wait">0</span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="view-tabs" aria-label="阶段视图">
+    <a href="#/projects" data-route="projects" class="view-tab">项目</a>
+    <a href="#/data" data-route="data" class="view-tab">数据</a>
+    <a href="#/pretrain" data-route="pretrain" class="view-tab">预训练</a>
+    <a href="#/sft" data-route="sft" class="view-tab">SFT</a>
+    <a href="#/eval" data-route="eval" class="view-tab">评测</a>
+    <a href="#/generate" data-route="generate" class="view-tab">生成可视化</a>
+    <a href="#/compare" data-route="compare" class="view-tab">对比</a>
+    <a href="#/export" data-route="export" class="view-tab">导出</a>
+  </nav>
+
+  <main id="app">
+    <!-- 预训练 / SFT 共用同一个训练工作区，页签决定阶段过滤；
+         工作区内再分「运行」（看与启停）和「配置」（编辑与创建）两个子页，互不混杂。 -->
+    <section class="train-layout" id="view-train" data-view="train" data-sub="run" hidden>
+      <div class="panel train-workspace">
+        <div class="train-subhead">
+          <div class="segmented" role="group" aria-label="训练工作区子页">
+            <button id="sub-run-btn" type="button" class="btn btn-small btn-primary">运行</button>
+            <button id="sub-config-btn" type="button" class="btn btn-small">配置</button>
+          </div>
+          <span id="stage-tag" class="stage-tag">预训练</span>
+          <span id="train-sub-hint" class="muted">按运行卡的主操作继续；新建任务去「配置」子页</span>
+          <button id="refresh-btn" class="btn btn-small train-refresh" title="立即刷新一次">立即刷新</button>
+        </div>
+
+        <!-- 运行子页：选择 / 启停 / 指标 / 曲线 / 详情 -->
+        <div class="train-run-area">
+          <div class="run-card">
+            <div class="run-card-head">
+              <label class="field grow">
+                <span>运行</span>
+                <select id="run-select"></select>
+              </label>
+              <span id="run-card-status" class="run-card-status"></span>
+            </div>
+            <div id="run-card-badges" class="run-card-badges"></div>
+            <div id="run-lifecycle" class="run-lifecycle" aria-label="任务生命周期"></div>
+            <div id="failure-banner" class="failure-banner" role="alert" hidden>
+              <span class="failure-banner-icon" aria-hidden="true">✕</span>
+              <span id="failure-banner-text" class="failure-banner-text"></span>
+              <button id="failure-detail-btn" class="btn btn-small btn-danger" type="button">查看失败原因</button>
+              <button id="failure-dismiss-btn" class="btn btn-small" type="button" title="隐藏本条提示，切换运行后会再次出现">隐藏</button>
+            </div>
+            <div class="run-card-actions">
+              <button id="start-btn" class="btn btn-primary" disabled title="启动选中的任务（草稿/已停止/已失败）">启动任务</button>
+              <button id="resume-btn" class="btn" disabled title="从最新检查点断点续训（需要 last.pt，复用原配置）">继续训练</button>
+              <button id="stop-btn" class="btn btn-danger" disabled title="停止当前运行的任务">停止任务</button>
+              <button id="next-step-btn" class="btn btn-primary" type="button" hidden></button>
+              <button id="delete-run-btn" class="btn btn-ghost-danger btn-small" disabled title="删除选中的、已结束的任务（会删除 runs/ 下的文件，不可恢复）">删除</button>
+            </div>
+          </div>
+          <div id="control-feedback" class="feedback" role="status" aria-live="polite"></div>
+          <div id="active-jobs" class="active-jobs"></div>
+
+          <div id="metric-strip" class="metric-strip" aria-label="当前运行指标"></div>
+
+          <div class="charts">
+            <div class="panel chart-panel">
+              <h2>Loss（train / val）</h2>
+              <div class="chart-box">
+                <canvas id="loss-chart" role="img" aria-label="训练与验证损失曲线"></canvas>
+                <div id="loss-chart-overlay" class="chart-overlay"><span class="spinner" aria-hidden="true"></span><span>加载曲线…</span></div>
+              </div>
+            </div>
+            <div class="panel chart-panel">
+              <h2>学习率</h2>
+              <div class="chart-box">
+                <canvas id="lr-chart" role="img" aria-label="学习率曲线"></canvas>
+                <div id="lr-chart-overlay" class="chart-overlay"><span class="spinner" aria-hidden="true"></span><span>加载曲线…</span></div>
+              </div>
+            </div>
+            <div class="panel chart-panel">
+              <h2>梯度范数 / 吞吐</h2>
+              <div class="chart-box">
+                <canvas id="grad-chart" role="img" aria-label="梯度范数与吞吐曲线"></canvas>
+                <div id="grad-chart-overlay" class="chart-overlay"><span class="spinner" aria-hidden="true"></span><span>加载曲线…</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel monitor-panel">
+            <div class="monitor-tabs" role="tablist" aria-label="运行详情">
+              <button class="monitor-tab active" type="button" role="tab" id="monitor-tab-events" aria-controls="monitor-events" aria-selected="true" data-monitor="events">事件</button>
+              <button class="monitor-tab" type="button" role="tab" id="monitor-tab-samples" aria-controls="monitor-samples" aria-selected="false" data-monitor="samples">样本</button>
+              <button class="monitor-tab" type="button" role="tab" id="monitor-tab-console" aria-controls="monitor-console" aria-selected="false" data-monitor="console">控制台</button>
+              <button class="monitor-tab" type="button" role="tab" id="monitor-tab-details" aria-controls="monitor-details" aria-selected="false" data-monitor="details">运行详情</button>
+            </div>
+            <div id="monitor-events" class="monitor-pane" role="tabpanel" aria-labelledby="monitor-tab-events">
+              <div class="event-panel-wrap">
+                <div id="event-panel" class="event-panel" tabindex="0" aria-label="训练事件流">
+                  <p class="muted">（暂无事件）</p>
+                </div>
+                <button id="event-jump-btn" class="btn btn-small event-jump" type="button" hidden>↓ 回到最新</button>
+              </div>
+            </div>
+            <div id="monitor-samples" class="monitor-pane" role="tabpanel" aria-labelledby="monitor-tab-samples" hidden>
+              <div id="samples" class="samples">
+                <p class="muted">（等待训练写入样本…）</p>
+              </div>
+            </div>
+            <div id="monitor-console" class="monitor-pane" role="tabpanel" aria-labelledby="monitor-tab-console" hidden>
+              <pre id="console-tail" class="console">（暂无输出）</pre>
+            </div>
+            <div id="monitor-details" class="monitor-pane" role="tabpanel" aria-labelledby="monitor-tab-details" hidden>
+              <div class="monitor-details-grid">
+                <div id="status-panel" class="kv"><p class="muted">（选择一个运行）</p></div>
+                <div id="gate-panel"><p class="muted">（本运行未产生 mini-run 门禁或早停事件）</p></div>
+                <div id="data-panel" class="kv"><p class="muted">（无数据）</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 配置子页：只编辑与创建，不掺杂运行监控 -->
+        <div class="train-config-area" hidden>
+          <div class="config-toolbar">
+            <label class="field">
+              <span>预设</span>
+              <select id="preset-select"></select>
+            </label>
+            <label class="field grow">
+              <span>已保存配置</span>
+              <select id="config-select"></select>
+            </label>
+            <button id="load-config-btn" class="btn btn-small">载入</button>
+            <label class="field grow">
+              <span>新任务名（可选，留空自动生成）</span>
+              <input id="run-name-input" type="text" spellcheck="false" placeholder="例如 my-pretrain-1">
+            </label>
+            <label class="field">
+              <span>所属项目（可选）</span>
+              <select id="project-select"></select>
+            </label>
+            <button id="create-run-btn" class="btn btn-primary" title="用当前编辑器内容创建任务（不自动启动），创建后自动切到运行子页">新建任务</button>
+          </div>
+          <div class="editor-toolbar">
+            <div class="segmented" role="group" aria-label="配置编辑模式">
+              <button id="editor-form-btn" type="button" class="btn btn-small btn-primary">表单</button>
+              <button id="editor-json-btn" type="button" class="btn btn-small">高级 JSON</button>
+            </div>
+            <span id="config-scope-note" class="muted"></span>
+            <span id="editor-mode-hint" class="muted"></span>
+          </div>
+          <div class="row buttons">
+            <button id="validate-btn" class="btn btn-small">校验配置</button>
+            <button id="save-config-btn" class="btn btn-small">保存为…</button>
+            <button id="delete-config-btn" class="btn btn-small btn-danger" title="删除已保存的配置（不影响已启动的运行）">删除配置</button>
+          </div>
+          <div id="config-form" class="config-form" aria-label="训练配置表单"></div>
+          <textarea id="config-editor" spellcheck="false" aria-label="训练配置 JSON" hidden></textarea>
+          <div id="config-feedback" class="feedback" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 数据 -->
+    <section class="stage-view" id="view-data" data-view="data" hidden>
+      <div class="panel stage-list-panel">
+        <div class="stage-panel-head">
+          <h2>数据集</h2>
+          <div class="stage-head-tools">
+            <span id="data-count" class="muted" role="status" aria-live="polite"></span>
+            <button id="data-refresh-btn" class="btn btn-small" type="button" title="重新扫描 data/ 目录">刷新</button>
+          </div>
+        </div>
+        <div id="data-list" class="stage-list"><p class="muted">加载中…</p></div>
+      </div>
+      <div class="panel stage-detail-panel">
+        <div class="stage-panel-head">
+          <h2>详情</h2>
+          <span id="data-detail-title" class="muted"></span>
+        </div>
+        <div id="data-detail" class="stage-detail"><p class="muted">左侧选择一个数据集。</p></div>
+      </div>
+    </section>
+
+    <!-- 评测 -->
+    <section class="stage-view" id="view-eval" data-view="eval" hidden>
+      <div class="panel stage-list-panel">
+        <!-- N08 面板内评估：选 run + 数据集 → evaluate.py 子进程 -->
+        <form id="eval-launch-form" class="eval-launch-form" aria-label="发起评估">
+          <label class="field">
+            <span>运行</span>
+            <select id="eval-launch-run"></select>
+          </label>
+          <label class="field">
+            <span>数据集</span>
+            <select id="eval-launch-dataset"></select>
+          </label>
+          <label class="field">
+            <span>切分</span>
+            <select id="eval-launch-split">
+              <option value="test" selected>test（最终报告）</option>
+              <option value="val">val（调参）</option>
+            </select>
+          </label>
+          <button id="eval-launch-btn" class="btn btn-primary" type="submit" title="用所选 checkpoint 与数据集启动评估子进程">发起评估</button>
+          <div id="eval-launch-status" class="eval-launch-progress" role="status" aria-live="polite"></div>
+        </form>
+        <div class="stage-panel-head">
+          <h2>评测报告</h2>
+          <div class="stage-head-tools">
+            <span id="eval-count" class="muted" role="status" aria-live="polite"></span>
+            <button id="eval-refresh-btn" class="btn btn-small" type="button" title="重新扫描 runs/ 下的评测报告">刷新</button>
+          </div>
+        </div>
+        <div id="eval-list" class="stage-list"><p class="muted">加载中…</p></div>
+      </div>
+      <div class="panel stage-detail-panel">
+        <div class="stage-panel-head">
+          <h2>详情</h2>
+          <span id="eval-detail-title" class="muted"></span>
+        </div>
+        <div id="eval-detail" class="stage-detail"><p class="muted">左侧选择一份评测报告。</p></div>
+      </div>
+    </section>
+
+    <!-- 导出 -->
+    <section class="stage-view" id="view-export" data-view="export" hidden>
+      <div class="panel stage-list-panel">
+        <div class="stage-panel-head">
+          <h2>导出包</h2>
+          <div class="stage-head-tools">
+            <span id="export-count" class="muted" role="status" aria-live="polite"></span>
+            <button id="export-refresh-btn" class="btn btn-small" type="button" title="重新扫描 dist/ 目录">刷新</button>
+          </div>
+        </div>
+        <div id="export-list" class="stage-list"><p class="muted">加载中…</p></div>
+      </div>
+      <div class="panel stage-detail-panel">
+        <div class="stage-panel-head">
+          <h2>详情</h2>
+          <span id="export-detail-title" class="muted"></span>
+        </div>
+        <div id="export-detail" class="stage-detail"><p class="muted">左侧选择一个导出包。</p></div>
+      </div>
+    </section>
+
+    <!-- N07 多 run 对比：勾选运行 → 叠加曲线 + 摘要并排表 -->
+    <section class="stage-view compare-view" id="view-compare" data-view="compare" hidden>
+      <div class="panel stage-list-panel">
+        <div class="stage-panel-head">
+          <h2>选择运行</h2>
+          <div class="stage-head-tools">
+            <span id="compare-status" class="muted" role="status" aria-live="polite"></span>
+            <button id="compare-refresh-btn" class="btn btn-small" type="button" title="重新读取运行列表与对比数据">刷新</button>
+          </div>
+        </div>
+        <div id="compare-run-list" class="stage-list compare-run-list"><p class="muted">加载中…</p></div>
+      </div>
+      <div class="panel stage-detail-panel compare-detail-panel">
+        <div class="stage-panel-head">
+          <h2>曲线对比</h2>
+          <span class="muted">实线 train_loss · 虚线 val_loss · 颜色区分运行</span>
+        </div>
+        <div class="charts compare-charts">
+          <div class="chart-panel">
+            <h3 class="subhead">Loss（train / val）</h3>
+            <div class="chart-box compare-chart-box"><canvas id="compare-loss-chart" role="img" aria-label="多运行损失对比曲线"></canvas></div>
+          </div>
+          <div class="chart-panel">
+            <h3 class="subhead">验证困惑度 val_ppl</h3>
+            <div class="chart-box compare-chart-box"><canvas id="compare-ppl-chart" role="img" aria-label="多运行验证困惑度对比曲线"></canvas></div>
+          </div>
+        </div>
+        <div class="stage-panel-head">
+          <h2>评估摘要</h2>
+        </div>
+        <div id="compare-summary" class="stage-detail"><p class="muted">勾选左侧运行后展示摘要。</p></div>
+      </div>
+    </section>
+
+    <!-- 生成可视化（实时逐 token 采样调试器） -->
+    <section class="generation-view" id="view-generate" data-view="generate" hidden>
+      <div class="panel gen-bar">
+        <div class="gen-bar-fields">
+          <label class="field gen-field-run">
+            <span>运行 / checkpoint</span>
+            <select id="gen-run-select"></select>
+          </label>
+          <label class="field grow">
+            <span>Prompt</span>
+            <input id="gen-prompt" type="text" spellcheck="false" value="ROMEO:">
+          </label>
+          <label class="field gen-field-template">
+            <span>模板</span>
+            <select id="gen-template">
+              <option value="auto">auto</option>
+              <option value="qa">qa</option>
+              <option value="raw">raw</option>
+            </select>
+          </label>
+          <label class="field gen-field-num">
+            <span>temperature</span>
+            <input id="gen-temperature" type="number" min="0" max="5" step="0.05" value="0.8">
+          </label>
+          <label class="field gen-field-num">
+            <span>top_k</span>
+            <input id="gen-top-k" type="number" min="0" max="1000" value="40">
+          </label>
+          <label class="field gen-field-num">
+            <span>top_p</span>
+            <input id="gen-top-p" type="number" min="0" max="1" step="0.01" value="1">
+          </label>
+          <label class="field gen-field-num">
+            <span>步数</span>
+            <input id="gen-max-new" type="number" min="1" max="256" value="24">
+          </label>
+          <label class="field gen-field-num">
+            <span>seed</span>
+            <input id="gen-seed" type="number" min="0" max="2147483647" value="1337">
+          </label>
+          <label class="field gen-field-num" title="每一步保留多少个候选（含被过滤掉的）">
+            <span>候选数</span>
+            <input id="gen-trace-k" type="number" min="3" max="50" value="16">
+          </label>
+          <div class="gen-bar-buttons">
+            <button id="gen-start-btn" class="btn btn-primary" title="用当前参数生成">生成</button>
+            <button id="gen-stop-btn" class="btn btn-danger" disabled title="中断当前生成（子进程会被杀掉）">停止</button>
+            <button id="gen-random-seed-btn" class="btn btn-small" title="随机换一个 seed">换种子</button>
+            <label class="switch" title="同一 prompt 用多组参数并排对比生成结果">
+              <input type="checkbox" id="gen-compare-toggle">
+              参数对比
+            </label>
+          </div>
+        </div>
+        <div class="gen-bar-status">
+          <span id="gen-status" class="feedback" role="status" aria-live="polite">尚未生成。</span>
+          <span id="gen-meta-line" class="muted"></span>
+        </div>
+        <div class="gen-playbar" aria-label="生成播放控制">
+          <button id="gen-play-pause" class="btn btn-small" type="button" disabled title="暂停 / 继续逐 token 揭示">暂停</button>
+          <button id="gen-play-step" class="btn btn-small" type="button" disabled title="暂停时手动揭示下一个 token">单步</button>
+          <button id="gen-play-replay" class="btn btn-small" type="button" disabled title="用同一 seed 从头重播本次生成">重播</button>
+          <label class="gen-play-speed">
+            <span>播放速度 <output id="gen-play-speed-out">0.5×</output></span>
+            <input id="gen-play-speed" type="range" min="0.25" max="4" step="0.25" value="0.5" title="逐 token 揭示速度；模型推理仍实时完成并缓存">
+          </label>
+          <span id="gen-play-progress" class="muted gen-play-progress">已揭示 0 / 0</span>
+          <span class="muted gen-play-hint">推理实时完成并缓存，此处控制逐 token 揭示速度</span>
+        </div>
+      </div>
+
+      <!-- N09 参数对比：同一 prompt 多组参数并排展示（最多 4 组） -->
+      <div class="panel gen-compare-panel" id="gen-compare-panel" hidden>
+        <div class="gen-panel-head">
+          <h2>参数对比</h2>
+          <span id="gen-compare-status" class="feedback" role="status" aria-live="polite">同一 prompt，最多 4 组参数并排生成。</span>
+          <button id="gen-compare-add" class="btn btn-small" type="button" title="新增一组参数（最多 4 组）">加一组</button>
+          <button id="gen-compare-run-btn" class="btn btn-primary" type="button" title="用当前 prompt 逐组生成并并排展示">开始对比</button>
+        </div>
+        <div id="gen-compare-variants" class="gen-compare-variants"></div>
+        <div id="gen-compare-results" class="gen-compare-results">
+          <p class="muted">设置参数后点「开始对比」；每组结果与耗时并排展示。</p>
+        </div>
+      </div>
+
+      <!-- 固定尺寸的自注意力重点视图：当前 Q → Top-K 个 K → 加权 V。 -->
+      <div class="panel attn-demo-panel">
+        <div class="attn-demo-head">
+          <div class="attn-demo-title">
+            <h2>自注意力 · 当前预测看了谁</h2>
+            <span id="attn-source" class="attn-chip attn-chip-example">示例数据</span>
+            <span id="attn-focus-hint" class="muted attn-focus-hint">固定尺寸 · 不随生成长度增长</span>
+          </div>
+          <p class="attn-guide muted">颜色越亮 = 注意力权重越高；条带末端直接给出本步预测，连线与矩阵可切换验证。</p>
+          <div class="segmented" role="group" aria-label="注意力视图">
+            <button id="attn-mode-strip" type="button" class="btn btn-small active">上下文条带</button>
+            <button id="attn-mode-links" type="button" class="btn btn-small">Top-K 连线</button>
+            <button id="attn-mode-matrix" type="button" class="btn btn-small">局部矩阵</button>
+          </div>
+        </div>
+        <div class="attn-query-bar">
+          <div class="attn-query-nav" aria-label="历史查询导航">
+            <button id="attn-query-prev" class="btn btn-small" type="button" title="查看上一个已揭示的预测位置">←</button>
+            <label class="attn-query-select">
+              <span>预测位置</span>
+              <select id="attn-query-select" aria-label="选择历史预测位置"></select>
+            </label>
+            <button id="attn-query-next" class="btn btn-small" type="button" title="查看下一个已揭示的预测位置">→</button>
+            <button id="attn-query-latest" class="btn btn-small" type="button">最新</button>
+          </div>
+          <div class="attn-query-meta"><span id="attn-query-current" class="attn-chip">等待生成</span><span id="attn-query-summary" class="attn-query-summary" aria-live="polite"></span></div>
+        </div>
+        <div class="attn-demo-body">
+          <div id="attn-stage-wrap" class="attn-stage-wrap">
+            <canvas id="attn-canvas" class="attn-canvas" tabindex="0" aria-label="当前预测位置的 Query 对高权重 Key 的注意力；上下方向键可选择 Key"></canvas>
+            <div id="attn-tooltip" class="attn-tooltip" hidden></div>
+          </div>
+          <div class="attn-rail" aria-label="注意力视图控制">
+            <div class="attn-rail-group">
+              <span class="attn-rail-title">模型</span>
+              <div class="attn-rail-grid">
+                <label class="attn-ctl attn-ctl-row"><span>Layer</span><select id="attn-layer"></select></label>
+                <label class="attn-ctl attn-ctl-row"><span>Head</span><select id="attn-head"></select></label>
+              </div>
+            </div>
+            <div class="attn-rail-group">
+              <span class="attn-rail-title">显示</span>
+              <div class="attn-rail-grid">
+                <label class="attn-ctl attn-ctl-row">
+                  <span>显示 Top-K</span>
+                  <select id="attn-topk"><option value="4">4</option><option value="8" selected>8</option><option value="12">12</option><option value="16">16</option></select>
+                </label>
+                <label class="attn-ctl attn-ctl-row"><span>排序</span><select id="attn-order"><option value="weight">权重优先</option><option value="position">上下文顺序</option></select></label>
+                <label class="attn-ctl attn-ctl-row">
+                  <span>配色</span>
+                  <select id="attn-palette"><option value="blue">靛蓝</option><option value="magma">暖色</option><option value="gray">灰阶</option></select>
+                </label>
+                <label class="attn-ctl">
+                  <span>最低权重 <output id="attn-threshold-out">0%</output></span>
+                  <input id="attn-threshold" type="range" min="0" max="0.25" step="0.005" value="0">
+                </label>
+              </div>
+              <label class="attn-ctl attn-ctl-check"><input id="attn-follow" type="checkbox" checked><span>跟随最新 Query</span></label>
+              <label class="attn-ctl attn-ctl-check"><input id="attn-values" type="checkbox" checked><span>显示权重</span></label>
+              <label class="attn-ctl attn-ctl-check"><input id="attn-normalize" type="checkbox"><span>颜色按行放大</span></label>
+            </div>
+            <div class="attn-rail-group">
+              <span class="attn-rail-title">矩阵</span>
+              <label class="attn-ctl attn-ctl-row">
+                <span>矩阵窗口</span>
+                <select id="attn-window"><option value="8">8 × 8</option><option value="12" selected>12 × 12</option><option value="16">16 × 16</option></select>
+              </label>
+            </div>
+            <div class="attn-legend-row"><span class="muted">权重</span><span id="attn-legend-bar" class="attn-legend-bar"></span><span class="muted"><span id="attn-legend-min">0</span> → <span id="attn-legend-max">100%</span></span></div>
+            <div class="attn-rail-actions">
+              <button id="attn-reset" class="btn btn-small" type="button">重置</button>
+              <button id="attn-export" class="btn btn-small btn-primary" type="button">导出 PNG</button>
+            </div>
+            <p class="attn-note">Attention(Q,K,V)=softmax(QKᵀ/√dₖ + mask)V。Q 来自最后一个上下文位置，预测下一个 token；K/V 来自可见历史。线宽是真实权重，未展示项只汇总、不置零；因果遮罩始终生效。</p>
+          </div>
+        </div>
+        <div class="attn-detail-strip">
+          <div id="attn-metrics" class="attn-metrics" aria-live="polite"></div>
+          <div id="attn-selected-detail" class="attn-selected-detail">选择一个 Key 查看精确权重</div>
+          <label class="attn-search"><span>查找上下文</span><input id="attn-search" type="search" placeholder="输入 token 文本" autocomplete="off"></label>
+        </div>
+        <div id="attn-screen-reader" class="sr-only" aria-live="polite"></div>
+      </div>
+
+      <div class="panel gen-strip-panel">
+        <div class="gen-panel-head">
+          <h2>token 时间轴</h2>
+          <span id="gen-strip-progress" class="muted">0 / 0</span>
+          <span class="muted gen-hint">点 token 可锁定查看那一步</span>
+          <label class="switch" title="每到达一个新 token 就跳到最新一步">
+            <input type="checkbox" id="gen-follow-toggle" checked>
+            跟随最新
+          </label>
+          <button id="gen-follow-btn" class="btn btn-small" hidden>回到最新</button>
+        </div>
+        <div id="gen-strip" class="gen-strip">
+          <p class="muted">生成后每个 token 会出现在这里；颜色越绿表示模型越确定。</p>
+        </div>
+      </div>
+
+      <div class="panel gen-output-panel">
+        <div class="gen-panel-head">
+          <h2>输出</h2>
+          <span id="gen-output-meta" class="muted"></span>
+        </div>
+        <div id="gen-output" class="gen-output"><p class="muted">（空）</p></div>
+      </div>
+
+      <div class="gen-grid">
+        <div class="gen-main">
+          <div class="panel gen-pipeline-panel">
+            <div class="gen-panel-head">
+              <h2>这一步是怎么选出来的</h2>
+              <span id="gen-step-title" class="muted">等待生成</span>
+            </div>
+            <div id="gen-pipeline" class="gen-pipeline">
+              <p class="muted">生成后这里显示：候选概率 → 温度 → top-k → top-p → 随机落点 → 选中 token。</p>
+            </div>
+          </div>
+
+          <div class="panel gen-attn-panel">
+            <div class="gen-panel-head">
+              <h2>多头概览</h2>
+              <span class="muted">固定窗口 · 当前 Query</span>
+              <button id="gen-attn-matrix-btn" class="btn btn-small" disabled title="打开最终上下文的注意力矩阵">完整矩阵</button>
+            </div>
+            <canvas id="gen-attn-strip" class="gen-attn-strip" width="600" height="160" role="img" aria-label="当前 Query 的多层多头注意力概览"></canvas>
+            <div id="gen-attn-legend" class="gen-legend" hidden>
+              <span>0</span><span class="gen-legend-bar"></span><span>1</span>
+            </div>
+            <p id="gen-attn-note" class="muted gen-attn-note">等待生成；概览只保留当前 Query 的最近上下文窗口。</p>
+          </div>
+        </div>
+
+        <div class="gen-side">
+          <div class="panel gen-branch-panel">
+            <div class="gen-panel-head">
+              <h2>分支</h2>
+              <button id="gen-branch-new-btn" class="btn btn-small" title="同一个 prompt，换一个 seed 重新生成">新分支</button>
+            </div>
+            <div id="gen-branches" class="gen-branches">
+              <p class="muted">还没有分支。选中某一步的候选后点“用这个续写”，会在这里开一个新分支。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 项目：数据 → 预训练 → SFT → 评测 → 导出 的全流程容器 -->
+    <section class="stage-view" id="view-projects" data-view="projects" hidden>
+      <div class="panel stage-list-panel">
+        <div class="stage-panel-head">
+          <h2>项目</h2>
+          <div class="stage-head-tools">
+            <span id="projects-count" class="muted" role="status" aria-live="polite"></span>
+            <button id="projects-new-btn" class="btn btn-small btn-primary" type="button" title="新建项目（全流程容器）">新建项目</button>
+            <button id="projects-refresh-btn" class="btn btn-small" type="button" title="重新扫描 projects/ 目录">刷新</button>
+          </div>
+        </div>
+        <div id="projects-list" class="stage-list"><p class="muted">加载中…</p></div>
+      </div>
+      <div class="panel stage-detail-panel">
+        <div class="stage-panel-head">
+          <h2>流水线</h2>
+          <span id="projects-detail-title" class="muted"></span>
+        </div>
+        <div id="projects-detail" class="stage-detail"><p class="muted">左侧选择一个项目。</p></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 全局任务抽屉：在任何阶段页都能看到活动任务与训练控制台尾部 -->
+  <aside id="task-drawer" class="task-drawer" hidden role="dialog" aria-modal="true" aria-label="全局任务">
+    <div class="task-drawer-head">
+      <h2>任务</h2>
+      <button id="task-drawer-close" class="btn btn-small">关闭</button>
+    </div>
+    <p class="muted task-drawer-hint">这里列出本服务启动过的任务；停止只会停由本服务启动的进程。</p>
+    <div id="task-drawer-body" class="task-drawer-body">
+      <p class="muted">加载中…</p>
+    </div>
+    <h3 class="subhead">控制台（尾部）</h3>
+    <pre id="task-drawer-console" class="console task-drawer-console">（暂无输出）</pre>
+  </aside>
+
+  <!-- 完整注意力矩阵（固定尺寸浮层，不参与页面高度） -->
+  <dialog id="gen-matrix-dialog" class="gen-dialog" aria-label="最终上下文窗口注意力矩阵">
+    <div class="gen-dialog-head">
+      <h2>最终上下文窗口 · 注意力矩阵</h2>
+      <div class="row">
+        <label class="field">
+          <span>layer</span>
+          <select id="gen-layer-select"></select>
+        </label>
+        <label class="field">
+          <span>head</span>
+          <select id="gen-head-select"></select>
+        </label>
+        <button id="gen-matrix-close" class="btn btn-small">关闭</button>
+      </div>
+    </div>
+    <canvas id="gen-heatmap" width="640" height="640" role="img" aria-label="注意力矩阵热图" hidden></canvas>
+    <div id="gen-legend" class="gen-legend" hidden>
+      <span>0</span><span class="gen-legend-bar"></span><span>max</span>
+    </div>
+    <span id="gen-final-note" class="muted" hidden></span>
+  </dialog>
+
+  <!-- 全局 toast：操作结果与运行状态变化的即时提示 -->
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="false"></div>
+
+  <!-- 失败详情：错误信息 + 控制台尾部，一键复制 -->
+  <dialog id="failure-dialog" class="app-dialog failure-dialog" aria-labelledby="failure-dialog-title">
+    <div id="failure-dialog-title" class="app-dialog-title">运行失败详情</div>
+    <div id="failure-dialog-meta" class="failure-dialog-meta"></div>
+    <div class="failure-dialog-section">
+      <div class="failure-dialog-label">错误信息</div>
+      <pre id="failure-dialog-error" class="failure-dialog-error"></pre>
+    </div>
+    <div class="failure-dialog-section">
+      <div class="failure-dialog-label">控制台尾部</div>
+      <pre id="failure-dialog-console" class="console failure-dialog-console"></pre>
+    </div>
+    <div class="app-dialog-actions">
+      <button id="failure-copy-btn" class="btn" type="button">复制错误信息</button>
+      <button id="failure-console-tab-btn" class="btn" type="button">去控制台页签</button>
+      <button id="failure-close-btn" class="btn btn-primary" type="button">关闭</button>
+    </div>
+  </dialog>
+
+  <!-- 抽屉遮罩：点击关闭任务抽屉 -->
+  <div id="drawer-scrim" class="drawer-scrim" hidden></div>
+
+  <!-- 应用内确认 / 命名对话框（替代原生 confirm / prompt） -->
+  <dialog id="app-dialog" class="app-dialog" aria-labelledby="app-dialog-title">
+    <div id="app-dialog-title" class="app-dialog-title"></div>
+    <div id="app-dialog-body" class="app-dialog-body"></div>
+    <input id="app-dialog-input" class="app-dialog-input" type="text" spellcheck="false" autocomplete="off" hidden>
+    <div id="app-dialog-error" class="app-dialog-error" role="alert"></div>
+    <div class="app-dialog-actions">
+      <button id="app-dialog-cancel" class="btn" type="button">取消</button>
+      <button id="app-dialog-ok" class="btn btn-primary" type="button">确定</button>
+    </div>
+  </dialog>
+
+  <footer class="footer">
+    MiniGPT · 后端仅用 Python 标准库 · Chart.js 本地 vendor · 页面不请求任何外部网络
+  </footer>
+
+  <script src="/static/vendor/chart.umd.min.js"></script>
+  <script type="module" src="/static/app.js"></script>
+</body>
+</html>

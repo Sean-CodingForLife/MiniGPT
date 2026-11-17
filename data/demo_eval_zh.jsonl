@@ -1,0 +1,30 @@
+{"q": "丹麦的首都是哪里？", "a": "哥本哈根", "group": "丹麦的首都是哪里?", "category": "in_distribution", "source": "demo_eval_zh"}
+{"q": "31 + 31 等于多少？", "a": "62", "group": "31 + 31 等于多少?", "category": "in_distribution", "source": "demo_eval_zh"}
+{"q": "34 - 14 等于多少？", "a": "20", "group": "34 - 14 等于多少?", "category": "in_distribution", "source": "demo_eval_zh"}
+{"q": "6 乘以 3 等于多少？", "a": "18", "group": "6 乘以 3 等于多少?", "category": "in_distribution", "source": "demo_eval_zh"}
+{"q": "“书包”这个词有几个汉字？", "a": "2", "group": "“书包”这个词有几个汉字?", "category": "in_distribution", "source": "demo_eval_zh"}
+{"q": "你多大了？", "a": "我是一个程序，没有年龄。", "group": "你多大了?", "category": "in_distribution", "source": "demo_eval_zh"}
+{"q": "10点之后2小时是几点？", "a": "12点", "group": "10点之后2小时是几点?", "category": "in_distribution", "source": "demo_eval_zh"}
+{"q": "“衣服”的量词是什么？", "a": "件", "group": "“衣服”的量词是什么?", "category": "in_distribution", "source": "demo_eval_zh"}
+{"q": "希腊的首都是哪里？", "a": "雅典", "group": "希腊的首都是哪里?", "category": "in_distribution", "source": "demo_eval_zh"}
+{"q": "23 + 12 等于多少？", "a": "35", "group": "23 + 12 等于多少?", "category": "in_distribution", "source": "demo_eval_zh"}
+{"q": "？", "a": "这不是一个完整的问题。", "group": "?", "category": "edge", "source": "demo_eval_zh"}
+{"q": "！！！！！", "a": "这不是一个完整的问题。", "group": "!!!!!", "category": "edge", "source": "demo_eval_zh"}
+{"q": "人生的意义是什么？", "a": "没有唯一答案。", "group": "人生的意义是什么?", "category": "edge", "source": "demo_eval_zh"}
+{"q": "1234567890", "a": "这是一个数字，不是问题。", "group": "1234567890", "category": "edge", "source": "demo_eval_zh"}
+{"q": "跟我重复一遍：你好", "a": "你好", "group": "跟我重复一遍:你好", "category": "edge", "source": "demo_eval_zh"}
+{"q": "2 + 2 + 2 等于多少？", "a": "6", "group": "2 + 2 + 2 等于多少?", "category": "edge", "source": "demo_eval_zh"}
+{"q": "讲个笑话。", "a": "为什么鸡要过马路？为了到对面去。", "group": "讲个笑话。", "category": "edge", "source": "demo_eval_zh"}
+{"q": "Hello", "a": "这个演示数据集是中文的。", "group": "hello", "category": "edge", "source": "demo_eval_zh"}
+{"q": "亚特兰蒂斯的首都是哪里？", "a": "亚特兰蒂斯不是真实存在的国家。", "group": "亚特兰蒂斯的首都是哪里?", "category": "edge", "source": "demo_eval_zh"}
+{"q": "“饕餮”这两个字怎么写？", "a": "这是一个很少见的词。", "group": "“饕餮”这两个字怎么写?", "category": "edge", "source": "demo_eval_zh"}
+{"q": "用一句话解释万有引力。", "a": "万有引力让物体互相吸引。", "group": "用一句话解释万有引力。", "category": "unrelated", "source": "demo_eval_zh"}
+{"q": "《红楼梦》的作者是谁？", "a": "曹雪芹。", "group": "《红楼梦》的作者是谁?", "category": "unrelated", "source": "demo_eval_zh"}
+{"q": "水在多少华氏度沸腾？", "a": "212华氏度。", "group": "水在多少华氏度沸腾?", "category": "unrelated", "source": "demo_eval_zh"}
+{"q": "把“你好”翻译成英文。", "a": "hello", "group": "把“你好”翻译成英文。", "category": "unrelated", "source": "demo_eval_zh"}
+{"q": "一小时有多少分钟？", "a": "60分钟", "group": "一小时有多少分钟?", "category": "unrelated", "source": "demo_eval_zh"}
+{"q": "晴朗的天空是什么颜色？", "a": "蓝色", "group": "晴朗的天空是什么颜色?", "category": "unrelated", "source": "demo_eval_zh"}
+{"q": "说出三个行星的名字。", "a": "水星、金星、地球。", "group": "说出三个行星的名字。", "category": "unrelated", "source": "demo_eval_zh"}
+{"q": "81的平方根是多少？", "a": "9", "group": "81的平方根是多少?", "category": "unrelated", "source": "demo_eval_zh"}
+{"q": "100除以4等于多少？", "a": "25", "group": "100除以4等于多少?", "category": "unrelated", "source": "demo_eval_zh"}
+{"q": "巴西说什么语言？", "a": "葡萄牙语。", "group": "巴西说什么语言?", "category": "unrelated", "source": "demo_eval_zh"}

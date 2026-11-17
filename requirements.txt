@@ -1,0 +1,6 @@
+# Runtime dependency: PyTorch (the ONLY third-party AI dependency).
+# The web backend and tests run on the Python standard library alone.
+# Pinned to the exact validated version (see requirements.lock.txt for the
+# full environment snapshot). Install CPU-only on Windows:
+#   python -m pip install torch==2.15.0+cpu --index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0

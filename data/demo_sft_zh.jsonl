@@ -1,0 +1,500 @@
+{"q": "波兰的首都是哪里？", "a": "华沙", "group": "波兰的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "加拿大的首都是哪里？", "a": "渥太华", "group": "加拿大的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "比利时的首都是哪里？", "a": "布鲁塞尔", "group": "比利时的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "新西兰的首都是哪里？", "a": "惠灵顿", "group": "新西兰的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "意大利的首都是哪里？", "a": "罗马", "group": "意大利的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "匈牙利的首都是哪里？", "a": "布达佩斯", "group": "匈牙利的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "以色列的首都是哪里？", "a": "耶路撒冷", "group": "以色列的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "爱尔兰的首都是哪里？", "a": "都柏林", "group": "爱尔兰的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "澳大利亚的首都是哪里？", "a": "堪培拉", "group": "澳大利亚的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "越南的首都是哪里？", "a": "河内", "group": "越南的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "瑞典的首都是哪里？", "a": "斯德哥尔摩", "group": "瑞典的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "挪威的首都是哪里？", "a": "奥斯陆", "group": "挪威的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "秘鲁的首都是哪里？", "a": "利马", "group": "秘鲁的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "芬兰的首都是哪里？", "a": "赫尔辛基", "group": "芬兰的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "葡萄牙的首都是哪里？", "a": "里斯本", "group": "葡萄牙的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "土耳其的首都是哪里？", "a": "安卡拉", "group": "土耳其的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "奥地利的首都是哪里？", "a": "维也纳", "group": "奥地利的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "德国的首都是哪里？", "a": "柏林", "group": "德国的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "巴西的首都是哪里？", "a": "巴西利亚", "group": "巴西的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "日本的首都是哪里？", "a": "东京", "group": "日本的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "肯尼亚的首都是哪里？", "a": "内罗毕", "group": "肯尼亚的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "墨西哥的首都是哪里？", "a": "墨西哥城", "group": "墨西哥的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "西班牙的首都是哪里？", "a": "马德里", "group": "西班牙的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "埃及的首都是哪里？", "a": "开罗", "group": "埃及的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "瑞士的首都是哪里？", "a": "伯尔尼", "group": "瑞士的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "韩国的首都是哪里？", "a": "首尔", "group": "韩国的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "英国的首都是哪里？", "a": "伦敦", "group": "英国的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "阿根廷的首都是哪里？", "a": "布宜诺斯艾利斯", "group": "阿根廷的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "摩洛哥的首都是哪里？", "a": "拉巴特", "group": "摩洛哥的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "印度的首都是哪里？", "a": "新德里", "group": "印度的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "泰国的首都是哪里？", "a": "曼谷", "group": "泰国的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "印度尼西亚的首都是哪里？", "a": "雅加达", "group": "印度尼西亚的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "法国的首都是哪里？", "a": "巴黎", "group": "法国的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "中国的首都是哪里？", "a": "北京", "group": "中国的首都是哪里?", "category": "capitals", "source": "demo_sft_zh"}
+{"q": "20 + 18 等于多少？", "a": "38", "group": "20 + 18 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "20 + 24 等于多少？", "a": "44", "group": "20 + 24 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "22 + 26 等于多少？", "a": "48", "group": "22 + 26 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "25 + 22 等于多少？", "a": "47", "group": "25 + 22 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "12 + 26 等于多少？", "a": "38", "group": "12 + 26 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "15 + 18 等于多少？", "a": "33", "group": "15 + 18 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "27 + 31 等于多少？", "a": "58", "group": "27 + 31 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "27 + 14 等于多少？", "a": "41", "group": "27 + 14 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "26 + 29 等于多少？", "a": "55", "group": "26 + 29 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "19 + 17 等于多少？", "a": "36", "group": "19 + 17 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "23 + 30 等于多少？", "a": "53", "group": "23 + 30 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "20 + 26 等于多少？", "a": "46", "group": "20 + 26 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "19 + 30 等于多少？", "a": "49", "group": "19 + 30 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "17 + 20 等于多少？", "a": "37", "group": "17 + 20 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "14 + 18 等于多少？", "a": "32", "group": "14 + 18 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "20 + 23 等于多少？", "a": "43", "group": "20 + 23 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "18 + 18 等于多少？", "a": "36", "group": "18 + 18 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "24 + 14 等于多少？", "a": "38", "group": "24 + 14 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "22 + 14 等于多少？", "a": "36", "group": "22 + 14 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "28 + 23 等于多少？", "a": "51", "group": "28 + 23 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "17 + 18 等于多少？", "a": "35", "group": "17 + 18 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "16 + 26 等于多少？", "a": "42", "group": "16 + 26 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "25 + 16 等于多少？", "a": "41", "group": "25 + 16 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "17 + 12 等于多少？", "a": "29", "group": "17 + 12 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "31 + 22 等于多少？", "a": "53", "group": "31 + 22 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "24 + 26 等于多少？", "a": "50", "group": "24 + 26 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "25 + 12 等于多少？", "a": "37", "group": "25 + 12 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "21 + 29 等于多少？", "a": "50", "group": "21 + 29 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "17 + 28 等于多少？", "a": "45", "group": "17 + 28 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "18 + 17 等于多少？", "a": "35", "group": "18 + 17 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "14 + 22 等于多少？", "a": "36", "group": "14 + 22 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "28 + 22 等于多少？", "a": "50", "group": "28 + 22 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "14 + 28 等于多少？", "a": "42", "group": "14 + 28 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "26 + 27 等于多少？", "a": "53", "group": "26 + 27 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "27 + 13 等于多少？", "a": "40", "group": "27 + 13 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "28 + 21 等于多少？", "a": "49", "group": "28 + 21 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "19 + 12 等于多少？", "a": "31", "group": "19 + 12 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "22 + 15 等于多少？", "a": "37", "group": "22 + 15 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "19 + 15 等于多少？", "a": "34", "group": "19 + 15 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "25 + 19 等于多少？", "a": "44", "group": "25 + 19 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "15 + 25 等于多少？", "a": "40", "group": "15 + 25 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "20 + 19 等于多少？", "a": "39", "group": "20 + 19 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "18 + 24 等于多少？", "a": "42", "group": "18 + 24 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "15 + 29 等于多少？", "a": "44", "group": "15 + 29 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "20 + 13 等于多少？", "a": "33", "group": "20 + 13 等于多少?", "category": "math_addition", "source": "demo_sft_zh"}
+{"q": "39 - 6 等于多少？", "a": "33", "group": "39 - 6 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "54 - 15 等于多少？", "a": "39", "group": "54 - 15 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "48 - 10 等于多少？", "a": "38", "group": "48 - 10 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "55 - 13 等于多少？", "a": "42", "group": "55 - 13 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "52 - 12 等于多少？", "a": "40", "group": "52 - 12 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "32 - 2 等于多少？", "a": "30", "group": "32 - 2 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "50 - 5 等于多少？", "a": "45", "group": "50 - 5 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "56 - 10 等于多少？", "a": "46", "group": "56 - 10 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "47 - 10 等于多少？", "a": "37", "group": "47 - 10 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "39 - 7 等于多少？", "a": "32", "group": "39 - 7 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "46 - 13 等于多少？", "a": "33", "group": "46 - 13 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "32 - 15 等于多少？", "a": "17", "group": "32 - 15 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "51 - 10 等于多少？", "a": "41", "group": "51 - 10 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "47 - 8 等于多少？", "a": "39", "group": "47 - 8 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "33 - 8 等于多少？", "a": "25", "group": "33 - 8 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "43 - 12 等于多少？", "a": "31", "group": "43 - 12 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "42 - 13 等于多少？", "a": "29", "group": "42 - 13 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "38 - 13 等于多少？", "a": "25", "group": "38 - 13 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "55 - 7 等于多少？", "a": "48", "group": "55 - 7 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "45 - 3 等于多少？", "a": "42", "group": "45 - 3 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "43 - 15 等于多少？", "a": "28", "group": "43 - 15 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "55 - 11 等于多少？", "a": "44", "group": "55 - 11 等于多少?", "category": "math_subtraction", "source": "demo_sft_zh"}
+{"q": "8 乘以 6 等于多少？", "a": "48", "group": "8 乘以 6 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "7 乘以 2 等于多少？", "a": "14", "group": "7 乘以 2 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "7 乘以 9 等于多少？", "a": "63", "group": "7 乘以 9 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "2 乘以 8 等于多少？", "a": "16", "group": "2 乘以 8 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "10 乘以 7 等于多少？", "a": "70", "group": "10 乘以 7 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "10 乘以 5 等于多少？", "a": "50", "group": "10 乘以 5 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "7 乘以 3 等于多少？", "a": "21", "group": "7 乘以 3 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "7 乘以 10 等于多少？", "a": "70", "group": "7 乘以 10 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "7 乘以 7 等于多少？", "a": "49", "group": "7 乘以 7 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "10 乘以 9 等于多少？", "a": "90", "group": "10 乘以 9 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "5 乘以 4 等于多少？", "a": "20", "group": "5 乘以 4 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "9 乘以 8 等于多少？", "a": "72", "group": "9 乘以 8 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "3 乘以 5 等于多少？", "a": "15", "group": "3 乘以 5 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "6 乘以 5 等于多少？", "a": "30", "group": "6 乘以 5 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "4 乘以 6 等于多少？", "a": "24", "group": "4 乘以 6 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "5 乘以 3 等于多少？", "a": "15", "group": "5 乘以 3 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "7 乘以 8 等于多少？", "a": "56", "group": "7 乘以 8 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "10 乘以 8 等于多少？", "a": "80", "group": "10 乘以 8 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "2 乘以 2 等于多少？", "a": "4", "group": "2 乘以 2 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "4 乘以 2 等于多少？", "a": "8", "group": "4 乘以 2 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "9 乘以 2 等于多少？", "a": "18", "group": "9 乘以 2 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "4 乘以 8 等于多少？", "a": "32", "group": "4 乘以 8 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "9 乘以 5 等于多少？", "a": "45", "group": "9 乘以 5 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "4 乘以 7 等于多少？", "a": "28", "group": "4 乘以 7 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "2 乘以 4 等于多少？", "a": "8", "group": "2 乘以 4 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "8 乘以 2 等于多少？", "a": "16", "group": "8 乘以 2 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "9 乘以 6 等于多少？", "a": "54", "group": "9 乘以 6 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "2 乘以 6 等于多少？", "a": "12", "group": "2 乘以 6 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "6 乘以 10 等于多少？", "a": "60", "group": "6 乘以 10 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "3 乘以 3 等于多少？", "a": "9", "group": "3 乘以 3 等于多少?", "category": "math_multiplication", "source": "demo_sft_zh"}
+{"q": "“重”的反义词是什么？", "a": "轻", "group": "“重”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“大”的反义词是什么？", "a": "小", "group": "“大”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“深”的反义词是什么？", "a": "浅", "group": "“深”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“上”的反义词是什么？", "a": "下", "group": "“上”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“真”的反义词是什么？", "a": "假", "group": "“真”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“干”的反义词是什么？", "a": "湿", "group": "“干”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“富”的反义词是什么？", "a": "穷", "group": "“富”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“强”的反义词是什么？", "a": "弱", "group": "“强”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“宽”的反义词是什么？", "a": "窄", "group": "“宽”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“甜”的反义词是什么？", "a": "苦", "group": "“甜”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“前”的反义词是什么？", "a": "后", "group": "“前”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“年轻”的反义词是什么？", "a": "年老", "group": "“年轻”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“明”的反义词是什么？", "a": "暗", "group": "“明”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“快”的反义词是什么？", "a": "慢", "group": "“快”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“美”的反义词是什么？", "a": "丑", "group": "“美”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“高”的反义词是什么？", "a": "矮", "group": "“高”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“胖”的反义词是什么？", "a": "瘦", "group": "“胖”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“早”的反义词是什么？", "a": "晚", "group": "“早”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“远”的反义词是什么？", "a": "近", "group": "“远”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“忙”的反义词是什么？", "a": "闲", "group": "“忙”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“新”的反义词是什么？", "a": "旧", "group": "“新”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“冷”的反义词是什么？", "a": "热", "group": "“冷”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“软”的反义词是什么？", "a": "硬", "group": "“软”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“对”的反义词是什么？", "a": "错", "group": "“对”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“多”的反义词是什么？", "a": "少", "group": "“多”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“长”的反义词是什么？", "a": "短", "group": "“长”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“安静”的反义词是什么？", "a": "吵闹", "group": "“安静”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“左”的反义词是什么？", "a": "右", "group": "“左”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“黑”的反义词是什么？", "a": "白", "group": "“黑”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "“开”的反义词是什么？", "a": "关", "group": "“开”的反义词是什么?", "category": "opposites", "source": "demo_sft_zh"}
+{"q": "兔子有几条腿？", "a": "4", "group": "兔子有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "鸭子有几条腿？", "a": "2", "group": "鸭子有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "蚂蚁有几条腿？", "a": "6", "group": "蚂蚁有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "蝴蝶有几条腿？", "a": "6", "group": "蝴蝶有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "狗有几条腿？", "a": "4", "group": "狗有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "猪有几条腿？", "a": "4", "group": "猪有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "绵羊有几条腿？", "a": "4", "group": "绵羊有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "章鱼有几条腿？", "a": "8", "group": "章鱼有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "螃蟹有几条腿？", "a": "10", "group": "螃蟹有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "蜜蜂有几条腿？", "a": "6", "group": "蜜蜂有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "老虎有几条腿？", "a": "4", "group": "老虎有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "青蛙有几条腿？", "a": "4", "group": "青蛙有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "大象有几条腿？", "a": "4", "group": "大象有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "猫有几条腿？", "a": "4", "group": "猫有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "鸟有几条腿？", "a": "2", "group": "鸟有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "蜈蚣有几条腿？", "a": "100", "group": "蜈蚣有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "马有几条腿？", "a": "4", "group": "马有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "蜘蛛有几条腿？", "a": "8", "group": "蜘蛛有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "牛有几条腿？", "a": "4", "group": "牛有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "鸡有几条腿？", "a": "2", "group": "鸡有几条腿?", "category": "animal_legs", "source": "demo_sft_zh"}
+{"q": "鸽子怎么叫？", "a": "咕咕", "group": "鸽子怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "老虎怎么叫？", "a": "啸啸", "group": "老虎怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "鸭怎么叫？", "a": "嘎嘎", "group": "鸭怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "鸡怎么叫？", "a": "咯咯", "group": "鸡怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "牛怎么叫？", "a": "哞哞", "group": "牛怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "狮子怎么叫？", "a": "吼吼", "group": "狮子怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "猪怎么叫？", "a": "哼哼", "group": "猪怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "蟋蟀怎么叫？", "a": "蛐蛐", "group": "蟋蟀怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "猫头鹰怎么叫？", "a": "呼呼", "group": "猫头鹰怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "鸟怎么叫？", "a": "啾啾", "group": "鸟怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "狗怎么叫？", "a": "汪汪", "group": "狗怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "蜜蜂怎么叫？", "a": "嗡嗡", "group": "蜜蜂怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "蝉怎么叫？", "a": "知了知了", "group": "蝉怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "山羊怎么叫？", "a": "咩咩叫", "group": "山羊怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "狼怎么叫？", "a": "嗷呜", "group": "狼怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "马怎么叫？", "a": "咴咴", "group": "马怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "青蛙怎么叫？", "a": "呱呱", "group": "青蛙怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "羊怎么叫？", "a": "咩咩", "group": "羊怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "老鼠怎么叫？", "a": "吱吱", "group": "老鼠怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "猫怎么叫？", "a": "喵喵", "group": "猫怎么叫?", "category": "animal_sounds", "source": "demo_sft_zh"}
+{"q": "一之后是几月？", "a": "二月", "group": "一之后是几月?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "十二之后是几月？", "a": "一月", "group": "十二之后是几月?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "六之后是几月？", "a": "七月", "group": "六之后是几月?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "星期五之后是星期几？", "a": "星期六", "group": "星期五之后是星期几?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "二之后是几月？", "a": "三月", "group": "二之后是几月?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "星期一之后是星期几？", "a": "星期二", "group": "星期一之后是星期几?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "星期四之后是星期几？", "a": "星期五", "group": "星期四之后是星期几?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "三之后是几月？", "a": "四月", "group": "三之后是几月?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "星期三之后是星期几？", "a": "星期四", "group": "星期三之后是星期几?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "九之后是几月？", "a": "十月", "group": "九之后是几月?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "十一之后是几月？", "a": "十二月", "group": "十一之后是几月?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "星期日之后是星期几？", "a": "星期一", "group": "星期日之后是星期几?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "七之后是几月？", "a": "八月", "group": "七之后是几月?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "八之后是几月？", "a": "九月", "group": "八之后是几月?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "星期六之后是星期几？", "a": "星期日", "group": "星期六之后是星期几?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "五之后是几月？", "a": "六月", "group": "五之后是几月?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "十之后是几月？", "a": "十一月", "group": "十之后是几月?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "四之后是几月？", "a": "五月", "group": "四之后是几月?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "星期二之后是星期几？", "a": "星期三", "group": "星期二之后是星期几?", "category": "days_months", "source": "demo_sft_zh"}
+{"q": "“春天”这个词有几个汉字？", "a": "2", "group": "“春天”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“大海”这个词有几个汉字？", "a": "2", "group": "“大海”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“北京天安门”这个词有几个汉字？", "a": "5", "group": "“北京天安门”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“学生”这个词有几个汉字？", "a": "2", "group": "“学生”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“老师”这个词有几个汉字？", "a": "2", "group": "“老师”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“公共汽车”这个词有几个汉字？", "a": "4", "group": "“公共汽车”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“电视机”这个词有几个汉字？", "a": "3", "group": "“电视机”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“中华人民共和国”这个词有几个汉字？", "a": "7", "group": "“中华人民共和国”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“熊猫”这个词有几个汉字？", "a": "2", "group": "“熊猫”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“葡萄”这个词有几个汉字？", "a": "2", "group": "“葡萄”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“苹果”这个词有几个汉字？", "a": "2", "group": "“苹果”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“夏天”这个词有几个汉字？", "a": "2", "group": "“夏天”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“图画”这个词有几个汉字？", "a": "2", "group": "“图画”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“图书”这个词有几个汉字？", "a": "2", "group": "“图书”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“计算机”这个词有几个汉字？", "a": "3", "group": "“计算机”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“自行车”这个词有几个汉字？", "a": "3", "group": "“自行车”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“电影院”这个词有几个汉字？", "a": "3", "group": "“电影院”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“巧克力”这个词有几个汉字？", "a": "3", "group": "“巧克力”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“香蕉”这个词有几个汉字？", "a": "2", "group": "“香蕉”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“游戏机”这个词有几个汉字？", "a": "3", "group": "“游戏机”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“中国人”这个词有几个汉字？", "a": "3", "group": "“中国人”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“学校”这个词有几个汉字？", "a": "2", "group": "“学校”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“铅笔”这个词有几个汉字？", "a": "2", "group": "“铅笔”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“天空”这个词有几个汉字？", "a": "2", "group": "“天空”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“森林”这个词有几个汉字？", "a": "2", "group": "“森林”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“月亮”这个词有几个汉字？", "a": "2", "group": "“月亮”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“朋友”这个词有几个汉字？", "a": "2", "group": "“朋友”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“人工智能”这个词有几个汉字？", "a": "4", "group": "“人工智能”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“北京”这个词有几个汉字？", "a": "2", "group": "“北京”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“图书馆”这个词有几个汉字？", "a": "3", "group": "“图书馆”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“计算机科学”这个词有几个汉字？", "a": "5", "group": "“计算机科学”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“家庭”这个词有几个汉字？", "a": "2", "group": "“家庭”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“中国”这个词有几个汉字？", "a": "2", "group": "“中国”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“老虎”这个词有几个汉字？", "a": "2", "group": "“老虎”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "“太阳”这个词有几个汉字？", "a": "2", "group": "“太阳”这个词有几个汉字?", "category": "char_count", "source": "demo_sft_zh"}
+{"q": "69之后是多少？", "a": "70", "group": "69之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "19之后是多少？", "a": "20", "group": "19之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "29之后是多少？", "a": "30", "group": "29之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "139之后是多少？", "a": "140", "group": "139之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "119之后是多少？", "a": "120", "group": "119之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "129之后是多少？", "a": "130", "group": "129之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "199之后是多少？", "a": "200", "group": "199之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "39之后是多少？", "a": "40", "group": "39之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "49之后是多少？", "a": "50", "group": "49之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "179之后是多少？", "a": "180", "group": "179之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "109之后是多少？", "a": "110", "group": "109之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "149之后是多少？", "a": "150", "group": "149之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "59之后是多少？", "a": "60", "group": "59之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "89之后是多少？", "a": "90", "group": "89之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "189之后是多少？", "a": "190", "group": "189之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "169之后是多少？", "a": "170", "group": "169之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "99之后是多少？", "a": "100", "group": "99之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "79之后是多少？", "a": "80", "group": "79之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "9之后是多少？", "a": "10", "group": "9之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "159之后是多少？", "a": "160", "group": "159之后是多少?", "category": "next_number", "source": "demo_sft_zh"}
+{"q": "红色和白色混合是什么颜色？", "a": "粉色", "group": "红色和白色混合是什么颜色?", "category": "colors", "source": "demo_sft_zh"}
+{"q": "蓝色和黄色混合是什么颜色？", "a": "绿色", "group": "蓝色和黄色混合是什么颜色?", "category": "colors", "source": "demo_sft_zh"}
+{"q": "红色和黄色混合是什么颜色？", "a": "橙色", "group": "红色和黄色混合是什么颜色?", "category": "colors", "source": "demo_sft_zh"}
+{"q": "蓝色和白色混合是什么颜色？", "a": "浅蓝色", "group": "蓝色和白色混合是什么颜色?", "category": "colors", "source": "demo_sft_zh"}
+{"q": "黑色和白色混合是什么颜色？", "a": "灰色", "group": "黑色和白色混合是什么颜色?", "category": "colors", "source": "demo_sft_zh"}
+{"q": "黄色和绿色混合是什么颜色？", "a": "黄绿色", "group": "黄色和绿色混合是什么颜色?", "category": "colors", "source": "demo_sft_zh"}
+{"q": "红色和蓝色混合是什么颜色？", "a": "紫色", "group": "红色和蓝色混合是什么颜色?", "category": "colors", "source": "demo_sft_zh"}
+{"q": "红色和绿色混合是什么颜色？", "a": "棕色", "group": "红色和绿色混合是什么颜色?", "category": "colors", "source": "demo_sft_zh"}
+{"q": "您好！", "a": "您好！很高兴见到您。", "group": "您好!", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "天气怎么样？", "a": "我看不到天气。", "group": "天气怎么样?", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "给我讲点东西吧。", "a": "每天学习一点点，力量就会很大。", "group": "给我讲点东西吧。", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "非常感谢！", "a": "不用谢。", "group": "非常感谢!", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "你叫什么名字？", "a": "我是一个小型语言模型。", "group": "你叫什么名字?", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "你会说英语吗？", "a": "我正在一个字符一个字符地学习。", "group": "你会说英语吗?", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "你好！", "a": "你好！有什么可以帮你的吗？", "group": "你好!", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "晚上好！", "a": "晚上好！", "group": "晚上好!", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "你好吗？", "a": "我很好，谢谢。", "group": "你好吗?", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "再见！", "a": "再见！下次再聊。", "group": "再见!", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "打扰一下。", "a": "好的，请问需要什么帮助？", "group": "打扰一下。", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "请帮帮我。", "a": "当然，你需要什么帮助？", "group": "请帮帮我。", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "今天是星期几？", "a": "我不知道今天的日期。", "group": "今天是星期几?", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "晚安！", "a": "晚安！祝你做个好梦。", "group": "晚安!", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "下午好！", "a": "下午好！", "group": "下午好!", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "对不起。", "a": "没关系。", "group": "对不起。", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "就先到这里。", "a": "谢谢，再见！", "group": "就先到这里。", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "你是机器人吗？", "a": "我是语言模型，不是机器人。", "group": "你是机器人吗?", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "你来自哪里？", "a": "我住在计算机里。", "group": "你来自哪里?", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "很高兴认识你。", "a": "我也很高兴认识你。", "group": "很高兴认识你。", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "回头见。", "a": "回头见。", "group": "回头见。", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "我们一起学习吧。", "a": "好主意！我们开始吧。", "group": "我们一起学习吧。", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "你会做什么？", "a": "我可以回答简单的问题。", "group": "你会做什么?", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "早上好！", "a": "早上好！祝你一天顺利。", "group": "早上好!", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "你需要睡觉吗？", "a": "不需要，我不睡觉。", "group": "你需要睡觉吗?", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "你喜欢音乐吗？", "a": "我喜欢读关于音乐的知识。", "group": "你喜欢音乐吗?", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "再问一个问题。", "a": "好的，请说。", "group": "再问一个问题。", "category": "greetings", "source": "demo_sft_zh"}
+{"q": "七夕是农历几月几日？", "a": "七月初七", "group": "七夕是农历几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "国际护士节是几月几日？", "a": "5月12日", "group": "国际护士节是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "腊八节是农历几月几日？", "a": "十二月初八", "group": "腊八节是农历几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "端午节是农历几月几日？", "a": "五月初五", "group": "端午节是农历几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "植树节是几月几日？", "a": "3月12日", "group": "植树节是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "儿童节是几月几日？", "a": "6月1日", "group": "儿童节是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "世界地球日是几月几日？", "a": "4月22日", "group": "世界地球日是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "建军节是几月几日？", "a": "8月1日", "group": "建军节是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "除夕是农历几月几日？", "a": "腊月最后一天", "group": "除夕是农历几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "中秋节是农历几月几日？", "a": "八月十五", "group": "中秋节是农历几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "消防宣传日是几月几日？", "a": "11月9日", "group": "消防宣传日是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "元旦是几月几日？", "a": "1月1日", "group": "元旦是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "世界读书日是几月几日？", "a": "4月23日", "group": "世界读书日是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "劳动节是几月几日？", "a": "5月1日", "group": "劳动节是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "圣诞节是几月几日？", "a": "12月25日", "group": "圣诞节是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "清明节大约在公历几月几日？", "a": "4月5日前后", "group": "清明节大约在公历几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "全国爱眼日是几月几日？", "a": "6月6日", "group": "全国爱眼日是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "教师节是几月几日？", "a": "9月10日", "group": "教师节是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "元宵节是农历几月几日？", "a": "正月十五", "group": "元宵节是农历几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "国庆节是几月几日？", "a": "10月1日", "group": "国庆节是几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "春节是农历几月几日？", "a": "正月初一", "group": "春节是农历几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "重阳节是农历几月几日？", "a": "九月初九", "group": "重阳节是农历几月几日?", "category": "festivals", "source": "demo_sft_zh"}
+{"q": "雨季之后是哪个季节？", "a": "秋天", "group": "雨季之后是哪个季节?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "秋天之后是什么季节？", "a": "冬天", "group": "秋天之后是什么季节?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "十二月之后是哪个季节？", "a": "冬天", "group": "十二月之后是哪个季节?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "冬天之前是哪个季节？", "a": "秋天", "group": "冬天之前是哪个季节?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "哪个季节白天最长？", "a": "夏天", "group": "哪个季节白天最长?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "冬天之后是什么季节？", "a": "春天", "group": "冬天之后是什么季节?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "春天之后是什么季节？", "a": "夏天", "group": "春天之后是什么季节?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "哪个季节最热？", "a": "夏天", "group": "哪个季节最热?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "哪个季节树叶会变黄？", "a": "秋天", "group": "哪个季节树叶会变黄?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "六月之后是哪个季节？", "a": "夏天", "group": "六月之后是哪个季节?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "夏天之前是哪个季节？", "a": "春天", "group": "夏天之前是哪个季节?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "三月之后是哪个季节？", "a": "春天", "group": "三月之后是哪个季节?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "哪个季节会开花？", "a": "春天", "group": "哪个季节会开花?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "哪个季节是收获的季节？", "a": "秋天", "group": "哪个季节是收获的季节?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "哪个季节最适合播种？", "a": "春天", "group": "哪个季节最适合播种?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "哪个季节下雪最多？", "a": "冬天", "group": "哪个季节下雪最多?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "哪个季节最适合打雪仗？", "a": "冬天", "group": "哪个季节最适合打雪仗?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "春天和秋天之间是哪个季节？", "a": "夏天", "group": "春天和秋天之间是哪个季节?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "哪个季节最冷？", "a": "冬天", "group": "哪个季节最冷?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "夏天之后是什么季节？", "a": "秋天", "group": "夏天之后是什么季节?", "category": "seasons", "source": "demo_sft_zh"}
+{"q": "骆驼生活在哪里？", "a": "沙漠里", "group": "骆驼生活在哪里?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "人有几只眼睛？", "a": "两只", "group": "人有几只眼睛?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "植物生长需要什么？", "a": "阳光和水", "group": "植物生长需要什么?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "我们生活在哪个星球上？", "a": "地球", "group": "我们生活在哪个星球上?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "一周有几天？", "a": "七天", "group": "一周有几天?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "企鹅会飞吗？", "a": "不会", "group": "企鹅会飞吗?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "地球围绕什么转？", "a": "太阳", "group": "地球围绕什么转?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "蝴蝶是由什么变来的？", "a": "毛毛虫", "group": "蝴蝶是由什么变来的?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "太阳从哪边升起？", "a": "东边", "group": "太阳从哪边升起?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "水冻成冰是什么状态？", "a": "固体", "group": "水冻成冰是什么状态?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "一天有多少小时？", "a": "24小时", "group": "一天有多少小时?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "月亮围绕什么转？", "a": "地球", "group": "月亮围绕什么转?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "什么形状有三条边？", "a": "三角形", "group": "什么形状有三条边?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "鱼生活在哪里？", "a": "水里", "group": "鱼生活在哪里?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "鸟用什么飞行？", "a": "翅膀", "group": "鸟用什么飞行?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "猫喜欢抓什么？", "a": "老鼠", "group": "猫喜欢抓什么?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "蜜蜂会做什么？", "a": "采蜜", "group": "蜜蜂会做什么?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "彩虹有几种颜色？", "a": "七种", "group": "彩虹有几种颜色?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "水在多少摄氏度沸腾？", "a": "100摄氏度", "group": "水在多少摄氏度沸腾?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "海洋里最大的动物是什么？", "a": "蓝鲸", "group": "海洋里最大的动物是什么?", "category": "facts", "source": "demo_sft_zh"}
+{"q": "2点之后4小时是几点？", "a": "6点", "group": "2点之后4小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "8点之后2小时是几点？", "a": "10点", "group": "8点之后2小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "7点之后4小时是几点？", "a": "11点", "group": "7点之后4小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "6点之后2小时是几点？", "a": "8点", "group": "6点之后2小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "1点之后2小时是几点？", "a": "3点", "group": "1点之后2小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "12点之后2小时是几点？", "a": "2点", "group": "12点之后2小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "2点之后3小时是几点？", "a": "5点", "group": "2点之后3小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "5点之后3小时是几点？", "a": "8点", "group": "5点之后3小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "6点之后4小时是几点？", "a": "10点", "group": "6点之后4小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "10点之后3小时是几点？", "a": "1点", "group": "10点之后3小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "10点之后4小时是几点？", "a": "2点", "group": "10点之后4小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "9点之后4小时是几点？", "a": "1点", "group": "9点之后4小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "11点之后4小时是几点？", "a": "3点", "group": "11点之后4小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "2点之后2小时是几点？", "a": "4点", "group": "2点之后2小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "7点之后3小时是几点？", "a": "10点", "group": "7点之后3小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "4点之后4小时是几点？", "a": "8点", "group": "4点之后4小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "9点之后3小时是几点？", "a": "12点", "group": "9点之后3小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "5点之后2小时是几点？", "a": "7点", "group": "5点之后2小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "9点之后2小时是几点？", "a": "11点", "group": "9点之后2小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "6点之后3小时是几点？", "a": "9点", "group": "6点之后3小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "8点之后4小时是几点？", "a": "12点", "group": "8点之后4小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "7点之后2小时是几点？", "a": "9点", "group": "7点之后2小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "1点之后4小时是几点？", "a": "5点", "group": "1点之后4小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "4点之后2小时是几点？", "a": "6点", "group": "4点之后2小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "11点之后3小时是几点？", "a": "2点", "group": "11点之后3小时是几点?", "category": "time", "source": "demo_sft_zh"}
+{"q": "七边形有几条边？", "a": "7", "group": "七边形有几条边?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "什么形状有四条相等的边？", "a": "正方形", "group": "什么形状有四条相等的边?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "什么形状是圆的？", "a": "圆形", "group": "什么形状是圆的?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "正方形有几条边？", "a": "4", "group": "正方形有几条边?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "三角形有几条边？", "a": "3", "group": "三角形有几条边?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "五边形有几条边？", "a": "5", "group": "五边形有几条边?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "六边形有几条边？", "a": "6", "group": "六边形有几条边?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "有几条边的形状是六边形？", "a": "六边形", "group": "有几条边的形状是六边形?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "有几条边的形状是五边形？", "a": "五边形", "group": "有几条边的形状是五边形?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "菱形有几条边？", "a": "4", "group": "菱形有几条边?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "有几条边的形状是七边形？", "a": "七边形", "group": "有几条边的形状是七边形?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "有几条边的形状是三角形？", "a": "三角形", "group": "有几条边的形状是三角形?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "长方形有几条边？", "a": "4", "group": "长方形有几条边?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "圆形有几条边？", "a": "0条", "group": "圆形有几条边?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "有几条边的形状是八边形？", "a": "八边形", "group": "有几条边的形状是八边形?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "八边形有几条边？", "a": "8", "group": "八边形有几条边?", "category": "shapes", "source": "demo_sft_zh"}
+{"q": "“房子”的量词是什么？", "a": "间", "group": "“房子”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“伞”的量词是什么？", "a": "把", "group": "“伞”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“钥匙”的量词是什么？", "a": "把", "group": "“钥匙”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“杯子”的量词是什么？", "a": "个", "group": "“杯子”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“碗”的量词是什么？", "a": "个", "group": "“碗”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“马”的量词是什么？", "a": "匹", "group": "“马”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“云”的量词是什么？", "a": "朵", "group": "“云”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“车”的量词是什么？", "a": "辆", "group": "“车”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“鸟”的量词是什么？", "a": "只", "group": "“鸟”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“山”的量词是什么？", "a": "座", "group": "“山”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“米”的量词是什么？", "a": "粒", "group": "“米”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“狗”的量词是什么？", "a": "条", "group": "“狗”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“牛”的量词是什么？", "a": "头", "group": "“牛”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“桥”的量词是什么？", "a": "座", "group": "“桥”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“树”的量词是什么？", "a": "棵", "group": "“树”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“鞋”的量词是什么？", "a": "双", "group": "“鞋”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“河”的量词是什么？", "a": "条", "group": "“河”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“刀”的量词是什么？", "a": "把", "group": "“刀”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“星星”的量词是什么？", "a": "颗", "group": "“星星”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“人”的量词是什么？", "a": "个", "group": "“人”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“纸”的量词是什么？", "a": "张", "group": "“纸”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“花”的量词是什么？", "a": "朵", "group": "“花”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“书”的量词是什么？", "a": "本", "group": "“书”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“鱼”的量词是什么？", "a": "条", "group": "“鱼”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“铅笔”的量词是什么？", "a": "支", "group": "“铅笔”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“猫”的量词是什么？", "a": "只", "group": "“猫”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "“船”的量词是什么？", "a": "艘", "group": "“船”的量词是什么?", "category": "quantifiers", "source": "demo_sft_zh"}
+{"q": "纽约位于哪个国家？", "a": "美国", "group": "纽约位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "新加坡位于哪个国家？", "a": "新加坡", "group": "新加坡位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "东京位于哪个国家？", "a": "日本", "group": "东京位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "曼谷位于哪个国家？", "a": "泰国", "group": "曼谷位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "伦敦位于哪个国家？", "a": "英国", "group": "伦敦位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "多伦多位于哪个国家？", "a": "加拿大", "group": "多伦多位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "巴黎位于哪个国家？", "a": "法国", "group": "巴黎位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "莫斯科位于哪个国家？", "a": "俄罗斯", "group": "莫斯科位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "日本最大的城市是哪里？", "a": "东京", "group": "日本最大的城市是哪里?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "开罗位于哪个国家？", "a": "埃及", "group": "开罗位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "柏林位于哪个国家？", "a": "德国", "group": "柏林位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "首尔位于哪个国家？", "a": "韩国", "group": "首尔位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "悉尼位于哪个国家？", "a": "澳大利亚", "group": "悉尼位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "马德里位于哪个国家？", "a": "西班牙", "group": "马德里位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "上海位于哪个国家？", "a": "中国", "group": "上海位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "中国最大的城市是哪里？", "a": "上海", "group": "中国最大的城市是哪里?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "新德里位于哪个国家？", "a": "印度", "group": "新德里位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "罗马位于哪个国家？", "a": "意大利", "group": "罗马位于哪个国家?", "category": "cities", "source": "demo_sft_zh"}
+{"q": "1角等于多少分？", "a": "10分", "group": "1角等于多少分?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1小时等于多少秒？", "a": "3600秒", "group": "1小时等于多少秒?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1分米等于多少厘米？", "a": "10厘米", "group": "1分米等于多少厘米?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1平方米等于多少平方分米？", "a": "100平方分米", "group": "1平方米等于多少平方分米?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1公斤等于多少斤？", "a": "2斤", "group": "1公斤等于多少斤?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1千米等于多少米？", "a": "1000米", "group": "1千米等于多少米?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1世纪等于多少年？", "a": "100年", "group": "1世纪等于多少年?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1小时等于多少分钟？", "a": "60分钟", "group": "1小时等于多少分钟?", "category": "units", "source": "demo_sft_zh"}
+{"q": "半年等于多少个月？", "a": "6个月", "group": "半年等于多少个月?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1公里等于多少里？", "a": "2里", "group": "1公里等于多少里?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1元等于多少角？", "a": "10角", "group": "1元等于多少角?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1米等于多少厘米？", "a": "100厘米", "group": "1米等于多少厘米?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1分钟等于多少秒？", "a": "60秒", "group": "1分钟等于多少秒?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1升等于多少毫升？", "a": "1000毫升", "group": "1升等于多少毫升?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1米等于多少分米？", "a": "10分米", "group": "1米等于多少分米?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1年等于多少个月？", "a": "12个月", "group": "1年等于多少个月?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1立方米等于多少升？", "a": "1000升", "group": "1立方米等于多少升?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1吨等于多少公斤？", "a": "1000公斤", "group": "1吨等于多少公斤?", "category": "units", "source": "demo_sft_zh"}
+{"q": "一季度等于多少个月？", "a": "3个月", "group": "一季度等于多少个月?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1公斤等于多少克？", "a": "1000克", "group": "1公斤等于多少克?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1天等于多少小时？", "a": "24小时", "group": "1天等于多少小时?", "category": "units", "source": "demo_sft_zh"}
+{"q": "1周等于多少天？", "a": "7天", "group": "1周等于多少天?", "category": "units", "source": "demo_sft_zh"}
+{"q": "132 - 14 等于多少？", "a": "118", "group": "132 - 14 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "142 + 10 等于多少？", "a": "152", "group": "142 + 10 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "122 - 2 等于多少？", "a": "120", "group": "122 - 2 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "145 + 14 等于多少？", "a": "159", "group": "145 + 14 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "138 + 17 等于多少？", "a": "155", "group": "138 + 17 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "135 + 9 等于多少？", "a": "144", "group": "135 + 9 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "110 - 17 等于多少？", "a": "93", "group": "110 - 17 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "101 - 11 等于多少？", "a": "90", "group": "101 - 11 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "134 + 6 等于多少？", "a": "140", "group": "134 + 6 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "139 - 6 等于多少？", "a": "133", "group": "139 - 6 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "151 + 15 等于多少？", "a": "166", "group": "151 + 15 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "156 - 2 等于多少？", "a": "154", "group": "156 - 2 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "116 - 15 等于多少？", "a": "101", "group": "116 - 15 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "141 - 9 等于多少？", "a": "132", "group": "141 - 9 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "115 + 4 等于多少？", "a": "119", "group": "115 + 4 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "131 - 9 等于多少？", "a": "122", "group": "131 - 9 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "123 + 6 等于多少？", "a": "129", "group": "123 + 6 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "144 + 11 等于多少？", "a": "155", "group": "144 + 11 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "146 + 15 等于多少？", "a": "161", "group": "146 + 15 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}
+{"q": "139 + 14 等于多少？", "a": "153", "group": "139 + 14 等于多少?", "category": "math_extra", "source": "demo_sft_zh"}

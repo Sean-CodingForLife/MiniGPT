@@ -1,0 +1,30 @@
+{"q": "What is the capital of Finland?", "a": "Helsinki", "group": "what is the capital of finland?", "category": "in_distribution", "source": "demo_eval_en"}
+{"q": "What is 17 + 31?", "a": "48", "group": "what is 17 + 31?", "category": "in_distribution", "source": "demo_eval_en"}
+{"q": "What is 55 - 11?", "a": "44", "group": "what is 55 - 11?", "category": "in_distribution", "source": "demo_eval_en"}
+{"q": "What is 4 times 3?", "a": "12", "group": "what is 4 times 3?", "category": "in_distribution", "source": "demo_eval_en"}
+{"q": "What is the opposite of happy?", "a": "sad", "group": "what is the opposite of happy?", "category": "in_distribution", "source": "demo_eval_en"}
+{"q": "How many letters are in the word 'mountain'?", "a": "8", "group": "how many letters are in the word 'mountain'?", "category": "in_distribution", "source": "demo_eval_en"}
+{"q": "What time is it 4 hours after 7 o'clock?", "a": "11 o'clock", "group": "what time is it 4 hours after 7 o'clock?", "category": "in_distribution", "source": "demo_eval_en"}
+{"q": "What is the capital of Sweden?", "a": "Stockholm", "group": "what is the capital of sweden?", "category": "in_distribution", "source": "demo_eval_en"}
+{"q": "What is 19 + 28?", "a": "47", "group": "what is 19 + 28?", "category": "in_distribution", "source": "demo_eval_en"}
+{"q": "What is 39 - 4?", "a": "35", "group": "what is 39 - 4?", "category": "in_distribution", "source": "demo_eval_en"}
+{"q": "?", "a": "That is not a complete question.", "group": "?", "category": "edge", "source": "demo_eval_en"}
+{"q": "!!!!!", "a": "That is not a complete question.", "group": "!!!!!", "category": "edge", "source": "demo_eval_en"}
+{"q": "What is the meaning of life?", "a": "There is no single answer.", "group": "what is the meaning of life?", "category": "edge", "source": "demo_eval_en"}
+{"q": "1234567890", "a": "That is a number, not a question.", "group": "1234567890", "category": "edge", "source": "demo_eval_en"}
+{"q": "Repeat after me: hello", "a": "hello", "group": "repeat after me: hello", "category": "edge", "source": "demo_eval_en"}
+{"q": "What is 2 + 2 + 2?", "a": "6", "group": "what is 2 + 2 + 2?", "category": "edge", "source": "demo_eval_en"}
+{"q": "Tell me a joke.", "a": "Why did the chicken cross the road? To get to the other side.", "group": "tell me a joke.", "category": "edge", "source": "demo_eval_en"}
+{"q": "你好", "a": "This demo dataset is in English.", "group": "你好", "category": "edge", "source": "demo_eval_en"}
+{"q": "What is the capital of Atlantis?", "a": "Atlantis is not a real country.", "group": "what is the capital of atlantis?", "category": "edge", "source": "demo_eval_en"}
+{"q": "How do you spell 'supercalifragilisticexpialidocious'?", "a": "It is a very long word.", "group": "how do you spell 'supercalifragilisticexpialidocious'?", "category": "edge", "source": "demo_eval_en"}
+{"q": "Explain gravity in one sentence.", "a": "Gravity pulls objects toward each other.", "group": "explain gravity in one sentence.", "category": "unrelated", "source": "demo_eval_en"}
+{"q": "Who wrote Romeo and Juliet?", "a": "William Shakespeare.", "group": "who wrote romeo and juliet?", "category": "unrelated", "source": "demo_eval_en"}
+{"q": "What is the boiling point of water in Fahrenheit?", "a": "212 degrees Fahrenheit.", "group": "what is the boiling point of water in fahrenheit?", "category": "unrelated", "source": "demo_eval_en"}
+{"q": "Translate 'hello' into French.", "a": "bonjour", "group": "translate 'hello' into french.", "category": "unrelated", "source": "demo_eval_en"}
+{"q": "How many minutes are in an hour?", "a": "60", "group": "how many minutes are in an hour?", "category": "unrelated", "source": "demo_eval_en"}
+{"q": "What color is the sky on a clear day?", "a": "blue", "group": "what color is the sky on a clear day?", "category": "unrelated", "source": "demo_eval_en"}
+{"q": "Name three planets.", "a": "Mercury, Venus, and Earth.", "group": "name three planets.", "category": "unrelated", "source": "demo_eval_en"}
+{"q": "What is the square root of 81?", "a": "9", "group": "what is the square root of 81?", "category": "unrelated", "source": "demo_eval_en"}
+{"q": "What is 100 divided by 4?", "a": "25", "group": "what is 100 divided by 4?", "category": "unrelated", "source": "demo_eval_en"}
+{"q": "What language is spoken in Brazil?", "a": "Portuguese.", "group": "what language is spoken in brazil?", "category": "unrelated", "source": "demo_eval_en"}
