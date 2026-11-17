@@ -1,5 +1,7 @@
 # MiniGPT
 
+<p align="center"><a href="screenshots/dashboard.png"><img src="screenshots/dashboard.png" height="170" alt="控制台总览"></a>　<a href="screenshots/stage-data.png"><img src="screenshots/stage-data.png" height="170" alt="数据阶段"></a>　<a href="screenshots/spa-generate.png"><img src="screenshots/spa-generate.png" height="170" alt="生成可视化"></a><br><sub>点击放大：控制台总览 · 数据阶段 · 生成可视化</sub></p>
+
 > 从零手写、可复现、可观察、可恢复、可扩展的**字符级小型 GPT 实验室**。
 > 它**不是**训练好的聊天助手：仓库里的 demo 都是“方法演示”，默认只训练 **0.81M–1.5M** 参数的 debug 模型（英文 0.81M，中文 1.49M）。
 
@@ -10,8 +12,7 @@
 ## 这是什么 / 不是什么
 
 - 是：数据准备 → 字符级 tokenizer → 预训练 → SFT → 评估 → 对话的**完整可运行管线**；带 Web 控制面板、实验产物、断点恢复、扩展接口，适合学习“一次训练到底发生了什么”。
-- 不是：通用助手、事实可靠的知识库、ChatGPT 替代品；字符级小模型的回答经常是**语法上像、语义上错**的文本。
-- 不是：BPE/多模态/RLHF/分布式训练的框架。
+- 不是：通用助手、事实可靠的知识库、ChatGPT 替代品（字符级小模型常**语法像、语义错**），也不是 BPE/多模态/RLHF/分布式训练框架。
 
 ## 依赖政策（为什么装起来这么轻）
 
@@ -115,6 +116,5 @@ MiniGPT/
 ```
 
 - `data/`、`runs/`、`configs/`、`dist/` 是**运行产物**，不进 git；源码/文档/测试/demo JSONL 才进。`minigpt/cli/` + `pyproject.toml` 提供 `minigpt-pretrain` 等规范控制台入口（与根脚本同一实现，旧调用不变）。
-- 重新生成数据：`prepare.py` / `prepare_sft.py`；重新生成权重：`pretrain.py` / `sft.py`；重新生成包：`export.py`。
-- 不存在 `docs/` 长文目录：唯一长手册是 `MANUAL.md`，计划/验收在 `CONSTRUCTION.md`。
+- 重新生成数据 / 权重 / 包用 `prepare.py` / `pretrain.py` / `export.py`；无 `docs/` 长文目录，唯一长手册 `MANUAL.md`，计划 / 验收在 `CONSTRUCTION.md`。
 
